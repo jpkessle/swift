@@ -39,7 +39,7 @@ Kitura 提供 `kitura` [指令行介面 (CLI)](https://www.kitura.io/guides/kitu
 ## 步驟 1. 使用瀏覽器建立 Kitura 應用程式
 {: #create_kitura}
 
-1. 移至 Apple Development Console 的「入門範本套件」區段。選取預先定義的入門範本，例如 **Swift - 服務於前端的後端 API**，或者使用**建立應用程式**磚來建立自訂應用程式。按一下**建立應用程式**。
+1. 移至 Apple Development Console 的「入門範本套件」區段。選取預先定義的入門範本，例如 **Swift for Backend for Frontend API**，或者使用**建立應用程式**磚來建立自訂應用程式。按一下**建立應用程式**。
 
 2. 為您的應用程式命名，並選取應用程式的部署位置。如果您不確定要在哪裡部署應用程式，請使用預設值，因為稍後還可以變更預設值。
 

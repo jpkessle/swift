@@ -20,7 +20,7 @@ subcollection: swift
 # 在 Swift 中記載
 {: #logging_swift}
 
-日誌訊息是字串，具有在製作日誌項目時有關微服務狀態及活動的環境定義資訊。需要有日誌，才能診斷服務失敗的程度和原因，日誌對於監視應用程式性能時的[應用程式度量值](/docs/swift/cloudnative?topic=swift-metrics#metrics)扮演了支援角色。
+日誌訊息是一些字串，其中包含與建立日誌項目時微服務的狀態及活動相關的環境定義資訊。需要有日誌，才能診斷服務失敗的程度和原因，日誌對於監視應用程式性能時的[應用程式度量值](/docs/swift/cloudnative?topic=swift-metrics#metrics)扮演了支援角色。
 
 因為在雲端環境中，處理程序都是暫時的，因此必須收集日誌並傳送至其他地方，通常會傳送到一個集中位置，以進行分析。在雲端環境中進行日誌記載最一致的方法是，將日誌項目傳送至標準輸出及錯誤串流，然後讓基礎架構處理剩下的事宜。
 
@@ -84,4 +84,4 @@ HeliumLogger.use(LoggerMessageType.info)
 
 了解如何實作及使用日誌聚集器：
 * [{{site.data.keyword.cloud_notm}} Log Analysis](/docs/services/CloudLogAnalysis?topic=cloudloganalysis-log_analysis_ov#log_analysis_ov)
-* [{{site.data.keyword.cloud_notm}} Private ELK 堆疊](https://www.ibm.com/support/knowledgecenter/en/SSBS6K_2.1.0.2/manage_metrics/logging_elk.html){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")
+* [{{site.data.keyword.cloud_notm}} Private ELK stack](https://www.ibm.com/support/knowledgecenter/en/SSBS6K_2.1.0.2/manage_metrics/logging_elk.html){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")

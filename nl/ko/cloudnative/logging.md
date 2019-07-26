@@ -62,7 +62,7 @@ Log.info("This is an informational log message.")
 ```
 {: screen}
 
-이러한 메시지는 로컬로 `stdout`(표준 출력)에 있거나 Cloud Foundry 및 Kubernetes 개발의 로그(`[ibmcloud app logs --recent <APP_NAME>]`(/docs/cli/reference?topic=cloud-cli-ibmcloud_commands_apps#ibmcloud_app_logs) 및 `[kubectl logs <deployment name>`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs)로 액세스됨{: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")에 있습니다.
+이러한 메시지는 로컬로 `stdout`(표준 출력)에 있거나 Cloud Foundry 및 Kubernetes 개발의 로그(`[ibmcloud app logs --recent <APP_NAME>]`(/docs/cli/reference?topic=cloud-cli-ibmcloud_commands_apps#ibmcloud_app_logs) 및 `[kubectl logs <deployment name>`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs){: new_window} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")으로 액세스됨)에 있습니다.
 
 `/Sources/AppName/main.swift` 파일에서 다음 코드를 볼 수 있습니다.
 ```swift

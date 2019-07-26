@@ -34,7 +34,7 @@ Anwendungen erreichen.
 Die in {{site.data.keyword.cloud_notm}} integrierten Funktionen für Anwendungsentwickler sind auf verschiedene Qualifikationsprofile abgestimmt und bieten eine universelle Plattform für die Erstellung, Bereitstellung, Ausführung und Verwaltung Ihrer App. Bei der erwähnten kognitiven App sind
 beispielsweise die folgenden {{site.data.keyword.cloud_notm}}-Funktionen interessant:
 
-* Die [**{{site.data.keyword.cloud_notm}}-Entwicklerkonsole**](/docs/apps?topic=creating-apps-getting-started) enthält eine Reihe von Funktionen in {{site.data.keyword.cloud_notm}}, die den Entwicklern traditioneller und cloudnativer Apps bei der Erstellung einsatzbereiter Apps helfen. Sie umfasst die automatische Bereitstellung von Services und die Bereitstellung für eine DevOps-Toolchain per Mausklick. 
+* Die [**{{site.data.keyword.cloud_notm}}-Entwicklerkonsole**](/docs/apps?topic=creating-apps-getting-started) enthält eine Reihe von Funktionen in {{site.data.keyword.cloud_notm}}, die den Entwicklern traditioneller und cloudnativer Apps bei der Erstellung einsatzbereiter Apps helfen. Sie umfasst die automatische Bereitstellung von Services und die Bereitstellung für eine DevOps-Toolchain per Mausklick.
 
 * [**IBM Watson Data Platform**](https://dataplatform.cloud.ibm.com/){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") macht es Ihnen denkbar einfach, Datensammlungen zusammenzustellen, die Daten zu optimieren und danach zu visualisieren, Erkenntnisse zu erzielen und Modelle zur Verwendung in Ihrer eigenen kognitiven App zu erstellen.
 
@@ -59,7 +59,7 @@ weitere Leistungsmerkmale und kann als umfassende Entwicklungsplattform genutzt 
 ## {{site.data.keyword.cloud_notm}}-Leistungsspektrum im Überblick
 {: #capabilities}
 
-Mit der {{site.data.keyword.cloud_notm}}-Entwicklerkonsole benötigen Sie nur wenige Minuten, um mit der Erstellung von Apps auf die empfohlene Art und Weise zu beginnen. Wesentliche Elemente der Entwicklerkonsole sind: 
+Mit der {{site.data.keyword.cloud_notm}}-Entwicklerkonsole benötigen Sie nur wenige Minuten, um mit der Erstellung von Apps auf die empfohlene Art und Weise zu beginnen. Wesentliche Elemente der Entwicklerkonsole sind:
 
 * Gruppe von Topic- oder kanalorientierten Entwicklerkonsolen aus der
 gesamten {{site.data.keyword.cloud_notm}}-Plattform
@@ -70,7 +70,7 @@ Starter-Apps in verschiedenen Sprachen und Architekturmustern erstellen
 * Erstellung
 einer [Devops-Toolchain](/docs/services/DevOpsInsights?topic=DevOpsInsights-getting-started#getting-started) per Mausklick
 
-In der ausführlicheren Beschreibung der folgenden Elemente erfahren Sie, wie die {{site.data.keyword.cloud_notm}}-Entwicklerkonsole Sie bei der schnellen Erstellung von einsatzbereiten Apps mit hoher Qualität unterstützt. 
+In der ausführlicheren Beschreibung der folgenden Elemente erfahren Sie, wie die {{site.data.keyword.cloud_notm}}-Entwicklerkonsole Sie bei der schnellen Erstellung von einsatzbereiten Apps mit hoher Qualität unterstützt.
 
 ## Entwicklerkonsolen
 {: #developer_consoles}

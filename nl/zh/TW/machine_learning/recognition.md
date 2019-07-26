@@ -101,7 +101,7 @@ Cocoapods 會下載 {{site.data.keyword.visualrecognitionshort}} 架構，並且
   ```
   {: codeblock}
 
-  您可以查看[版本參數文件 ](https://{DomainName}/apidocs/visual-recognition#versioning){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 或者使用建立 {site.data.keyword.conversationshort}} 服務的日期。
+  您可以參閱[版本參數文件 ](https://{DomainName}/apidocs/visual-recognition#versioning){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 或者使用建立 {site.data.keyword.conversationshort}} 服務的日期。
   {: tip}
 
 3. 新增下列程式碼，以分類影像：

@@ -61,7 +61,7 @@
     {: .navgroup id="reference"}
     sdk.md
     [API 文档](https://cloud.ibm.com/apidocs)
-    [IBM Code 上的样本应用程序](https://developer.ibm.com/code/technologies/swift-on-the-server/)
+    [Code Patterns](https://developer.ibm.com/patterns/category/swift/)
     [IBM Cloud Developer Center](https://developer.ibm.com/swift/)
     {: .navgroup-end}
 

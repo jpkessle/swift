@@ -67,7 +67,7 @@ Sie können erlernen, wie Sie mit dem Kubernetes-Service von {{site.data.keyword
 beschriebenen Szenario verwendet eine fiktive PR-Firma
 den {{site.data.keyword.cloud_notm}}-Service, um ihre Pressemitteilungen
 zu analysieren und eine Rückmeldung auf den Tonfall ihrer Nachrichten zu
-erhalten. Weitere Informationen finden Sie im Lernprogramm [Apps in Kubernetes-Clustern bereitstellen](/docs/containers?topic=containers-cs_apps_tutorial). 
+erhalten. Weitere Informationen finden Sie im Lernprogramm [Apps in Kubernetes-Clustern bereitstellen](/docs/containers?topic=containers-cs_apps_tutorial).
 
 ## In Cloud Foundry bereitstellen
 {: #swift-deploy-cf}
@@ -88,4 +88,4 @@ Infrastruktur sicher und effizient aufgebaut, geändert und versioniert werden.
   VSI-Bereitstellung ist für einige Starter-Kits verfügbar. Wenn Sie diese Funktion verwenden möchten, rufen Sie das [{{site.data.keyword.cloud_notm}}-Dashboard](https://{DomainName}) auf und klicken Sie auf **App erstellen** in der Kachel **Apps**.
   {: note}
 
-Weitere Informationen finden Sie in [Auf einem virtuellen Server bereitstellen](/docs/vsi?topic=virtual-servers-deploying-to-a-virtual-server). 
+Weitere Informationen finden Sie in [Auf einem virtuellen Server bereitstellen](/docs/vsi?topic=virtual-servers-deploying-to-a-virtual-server).

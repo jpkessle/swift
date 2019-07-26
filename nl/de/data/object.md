@@ -59,7 +59,7 @@ für das Lesen und Schreiben von Objekten. Sie unterstützt eine Untergruppe der
 S3-API für die einfache Migration von Anwendungen auf
 {{site.data.keyword.cloud_notm}}. Zur Nutzung von
 {{site.data.keyword.cos_full}} kann jedes beliebige S3-SDK verwendet
-werden. Weitere Informationen finden Sie in der vollständigen [{{site.data.keyword.cos_short}}-API-Referenz](/docs/services/cloud-object-storage?topic=cloud-object-storage-compatibility-api). 
+werden. Weitere Informationen finden Sie in der vollständigen [{{site.data.keyword.cos_short}}-API-Referenz](/docs/services/cloud-object-storage?topic=cloud-object-storage-compatibility-api).
 
 ## Objektspeicher sichern
 {: #security-cos}

@@ -42,7 +42,7 @@ Kubernetes는 프로세스 상태에 대한 미묘한 개념을 가지고 있습
 
 다음 표는 준비 상태, 활성 상태 및 단일 상태 엔드포인트가 제공할 수 있는 응답에 대한 지침을 제공합니다.
 
-| 상태    | 준비 상태(readiness)         | 활성 상태(liveness)        | 단일 상태(health)         |
+| 상태     | 준비 상태(readiness)        | 활성 상태(liveness)        | 단일 상태(health)         |
 |----------|-----------------------------|----------------------------|---------------------------|
 |          | 정상 상태가 아니면 로드되지 않음 | 정상 상태가 아니면 다시 시작 | 정상 상태가 아니면 다시 시작 |
 | 시작 중  | 503 - 사용 불가능           | 200 - 정상                 | 테스트하지 않으려면 지연을 사용함 |
@@ -62,14 +62,14 @@ Health 라이브러리를 기존 Swift 앱에 추가하려면 다음 단계를 �
 1. `Package.swift` 파일의 *dependencies:* 섹션에 상태 라이브러리를 지정하려면 이를 적합한 모든 대상에 추가하십시오.
 
     ```swift
-  .package(url: "https://github.com/IBM-Swift/Health.git", .from: "1.0.0"),
+    .package(url: "https://github.com/IBM-Swift/Health.git", .from: "1.0.0"),
     ```
     {: codeblock}
 
 2. 다음 초기화 코드를 애플리케이션에 추가하십시오.
 
     ```swift
-import Health
+    import Health
 
     let health = Health()
     ```
@@ -83,7 +83,7 @@ import Health
         let status = health.status.toSimpleDictionary()
         if health.status.state == .UP {
             try response.send(json: status).end()
-  } else {
+        } else {
             try response.status(.serviceUnavailable).send(json: status).end()
         }
     }

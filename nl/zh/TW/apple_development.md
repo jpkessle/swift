@@ -55,7 +55,7 @@ subcollection: swift
 ## 開發人員主控台
 {: #developer_consoles}
 
-{{site.data.keyword.cloud_notm}} 開發人員主控台包括相關區域（如 Watson、Security 或 Finance）或一個數位的頻道（如行動或 Web 應用程式）。[{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/dashboard){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 是針對 Apple 開發人員所開發的，可快速實驗應用程式及服務，且受 {{site.data.keyword.cloud_notm}} 平台支援。您可以藉由按一下 {{site.data.keyword.cloud_notm}} 主控台中的功能表圖示，來存取這些主控台。例如，請參閱下列開發人員主控台：
+{{site.data.keyword.cloud_notm}} 開發人員主控台包括感興趣的區域（如 Watson、Security 或 Finance）或一個數位的頻道（如行動或 Web 應用程式）。[{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/dashboard){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示") 是針對 Apple 開發人員所開發的，可快速實驗應用程式及服務，且受 {{site.data.keyword.cloud_notm}} 平台支援。您可以藉由按一下 {{site.data.keyword.cloud_notm}} 主控台中的功能表圖示，來存取這些主控台。例如，請參閱下列開發人員主控台：
 
 * [Watson 開發人員主控台](https://{DomainName}/developer/watson/dashboard){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")
 * [行動開發人員主控台](https://{DomainName}/developer/mobile/dashboard){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")

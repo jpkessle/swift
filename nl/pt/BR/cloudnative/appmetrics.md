@@ -27,7 +27,7 @@ As métricas do aplicativo são capturadas como dados de série temporal. A agre
 * Tempos de resposta lentos de HTTP em algumas ou em todas as rotas
 * Rendimento insatisfatório no aplicativo
 * Espiões na demanda que causam desaceleração
-* Uso superior ao uso da CPU
+* Uso de CPU maior que o esperado
 * Uso de memória alto ou crescente (potencial fuga de memória)
 
 ## Incluindo métricas do aplicativo em seu aplicativo do Swift existente

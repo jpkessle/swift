@@ -73,7 +73,7 @@ erzeugt:
 ```
 {: screen}
 
-Diese Nachrichten befinden sich lokal in `stdout` (Standardausgabe) oder in den Protokollen für Cloud Foundry- und Kubernetes-Bereitstellungen, auf die mit `[ibmcloud app logs --recent <APP_NAME>]`(/docs/cli/reference?topic=cloud-cli-ibmcloud_commands_apps#ibmcloud_app_logs) und `[kubectl logs <deployment name>`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") zugegriffen wird. 
+Diese Nachrichten befinden sich lokal in `stdout` (Standardausgabe) oder in den Protokollen für Cloud Foundry- und Kubernetes-Bereitstellungen, auf die mit `[ibmcloud app logs --recent <APP_NAME>]`(/docs/cli/reference?topic=cloud-cli-ibmcloud_commands_apps#ibmcloud_app_logs) und `[kubectl logs <deployment name>`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") zugegriffen wird.
 
 In der Datei `/Sources/AppName/main.swift` ist der
 folgende Code enthalten:

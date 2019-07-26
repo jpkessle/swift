@@ -113,9 +113,9 @@ erforderlichen Informationen.
 angegebene Name der Website.
 		- **Push-ID für Website**: Aktualisieren Sie dieses
 Feld mit Ihrer Push-ID für die Website, bei der es sich um eine Zeichenfolge
-mit umgekehrter Domänenreihenfolge handelt. Beispiel: `web.com.example.www`. 
+mit umgekehrter Domänenreihenfolge handelt. Beispiel: `web.com.example.www`.
 		- **Website-URL**: Geben Sie die URL der Website
-an, die abonniert wurde, um Push-Benachrichtigungen zu erhalten. Beispiel: `https://www.example.com`. 
+an, die abonniert wurde, um Push-Benachrichtigungen zu erhalten. Beispiel: `https://www.example.com`.
 		- **Zulässige Domänen**: Dieser optionale Parameter
 definiert eine Liste von Websites, die vom Benutzer eine Berechtigung
 anfordern. Geben Sie die URLs als durch Kommas getrennte Werte an. Die Werte im
@@ -204,6 +204,6 @@ Der {{site.data.keyword.mobilepushshort}}-Service bietet ein
 
  - Eine Einführung in die Arbeit mit Mobile-Services und {{site.data.keyword.cloud_notm}} finden Sie im Abschnitt [Einführung für mobile Apps in {{site.data.keyword.cloud_notm}}](/docs/services/mobile?topic=mobile-about).
 
- - Starter-Kits bieten eine der schnellsten Möglichkeiten zur Nutzung des Leistungsspektrums von {{site.data.keyword.cloud_notm}}. Im [Dashboard für Entwickler für Mobilgeräte](https://{DomainName}/developer/mobile/dashboard){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") werden die verfügbaren Starter-Kits angezeigt. Laden Sie den Code herunter. Führen Sie die App aus! 
+ - Starter-Kits bieten eine der schnellsten Möglichkeiten zur Nutzung des Leistungsspektrums von {{site.data.keyword.cloud_notm}}. Im [Dashboard für Entwickler für Mobilgeräte](https://{DomainName}/developer/mobile/dashboard){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") werden die verfügbaren Starter-Kits angezeigt. Laden Sie den Code herunter. Führen Sie die App aus!
 
  - Mithilfe der [Swagger-Benutzerschnittstelle](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/notifications/rest-apis/){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") können Sie die REST-API-Dokumentation schnell prüfen.

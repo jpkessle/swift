@@ -116,7 +116,7 @@ Projektseite wird angezeigt.
 ## Schritt 3. Verbindung zur Datenbank herstellen
 {: #connect_db}
 
-Um die Sicherheit der Datenübertragung zu erhöhen, laden Sie die Datei der Zertifizierungsstelle herunter und kopieren Sie sie in Ihr Projektverzeichnis. 
+Um die Sicherheit der Datenübertragung zu erhöhen, laden Sie die Datei der Zertifizierungsstelle herunter und kopieren Sie sie in Ihr Projektverzeichnis.
 
 1. Wechseln Sie in Ihr Projektverzeichnis, das die dekomprimierten
 Codedateien des Downloads enthält.
@@ -138,12 +138,12 @@ Ihre Zugriffsberechtigungsnachweise für den Datenbankcluster zu speichern.
 ### Beschreibungen der Datenbankparameter
 {: #db-parameter-descriptions}
 
-Beachten Sie die folgenden Beschreibungen der Datenbankparameter: 
+Beachten Sie die folgenden Beschreibungen der Datenbankparameter:
 
-* `admin_ID` - Die Benutzer-ID des Datenbankadministrators, die in [Datenbankcluster erstellen](/docs/swift?topic=swift-create-database-cluster#create_dbcluster) angegeben wurde. 
-* `admin_pwd` - Das Kennwort der Benutzer-ID des Administrators, das in [Datenbankcluster erstellen](/docs/swift?topic=swift-create-database-cluster#create_dbcluster) angegeben wurde. 
-* `Hostname_i` - Ein Datenbankreplikat *i* (*i*=1, 2, 3), das in [Datenbankcluster erstellen](/docs/swift?topic=swift-create-database-cluster#create_dbcluster) zurückgegeben wurde. 
-* `PortNumber_i` - Eine Portnummer *i* (*i*=1, 2, 3), die in [Datenbankcluster erstellen](/docs/swift?topic=swift-create-database-cluster#create_dbcluster) zurückgegeben wurde. 
+* `admin_ID` - Die Benutzer-ID des Datenbankadministrators, die in [Datenbankcluster erstellen](/docs/swift?topic=swift-create-database-cluster#create_dbcluster) angegeben wurde.
+* `admin_pwd` - Das Kennwort der Benutzer-ID des Administrators, das in [Datenbankcluster erstellen](/docs/swift?topic=swift-create-database-cluster#create_dbcluster) angegeben wurde.
+* `Hostname_i` - Ein Datenbankreplikat *i* (*i*=1, 2, 3), das in [Datenbankcluster erstellen](/docs/swift?topic=swift-create-database-cluster#create_dbcluster) zurückgegeben wurde.
+* `PortNumber_i` - Eine Portnummer *i* (*i*=1, 2, 3), die in [Datenbankcluster erstellen](/docs/swift?topic=swift-create-database-cluster#create_dbcluster) zurückgegeben wurde.
 * `CA_file` - Der Dateiname der heruntergeladenen Datei der Zertifizierungsstelle. Während der Bereitstellung wird diese Datei in das Verzeichnis `/swift-project` kopiert.
 
 4. Bearbeiten Sie die Datei `Package.swift` und fügen
@@ -263,7 +263,7 @@ Jetzt können Sie Ihren eigenen Anwendungscode zum Projekt hinzufügen. Weitere 
 Sie können die Anwendung mit den erforderlichen Build-Tools [lokal](/docs/swift?topic=swift-swift_cli#swift-install-tools) ausführen oder in {{site.data.keyword.cloud_notm}} bereitstellen.
 
 Klicken Sie zum Erstellen einer Toolchain für die Bereitstellung auf **Bereitstellen** im Dashboard. Richten Sie Ihr Bereitstellungsziel gemäß den Anweisungen für die von Ihnen gewählte Methode ein:
-  * **Bereitstellung in IBM Kubernetes Service**. Mit dieser Option wird ein Cluster mit Hosts erstellt, die als Workerknoten bezeichnet werden, um hoch verfügbare App-Container bereitzustellen und zu verwalten. Sie können einen Cluster erstellen oder die Bereitstellung in einem vorhandenen Cluster vornehmen. Weitere Informationen finden Sie in [Apps in Kubernetes-Clustern bereitstellen](/docs/containers?topic=containers-app). 
-  * **Bereitstellung in Cloud Foundry**. Mit dieser Option wird die cloudnative App bereitgestellt, ohne dass Sie die zugrunde liegende Infrastruktur verwalten müssen. Wenn Ihr Konto über Zugriff auf {{site.data.keyword.cfee_full_notm}} verfügt, können Sie als Bereitstellertyp entweder **Public Cloud** oder **Enterprise Environment** auswählen, das zum Erstellen und Verwalten isolierter Umgebungen für das exklusive Hosting von Cloud Foundry-Apps für Ihr Unternehmen verwendet werden kann. Weitere Informationen finden Sie in [Apps in Cloud Foundry Public bereitstellen](/docs/cloud-foundry-public?topic=cloud-foundry-public-deployingapps) und [Apps in {{site.data.keyword.cfee_full_notm}} bereitstellen](/docs/cloud-foundry?topic=cloud-foundry-deploy_apps). 
-  * **Bereitstellung auf einem virtuellen Server**. Mit dieser Option wird eine virtuelle Serverinstanz bereitgestellt, ein Image mit Ihrer App geladen, eine DevOps-Toolchain erstellt und der erste Bereitstellungszyklus initiiert. Weitere Informationen finden Sie in [Apps auf einem virtuellen Server bereitstellen](/docs/vsi?topic=virtual-servers-deploying-to-a-virtual-server). 
+  * **Bereitstellung in IBM Kubernetes Service**. Mit dieser Option wird ein Cluster mit Hosts erstellt, die als Workerknoten bezeichnet werden, um hoch verfügbare App-Container bereitzustellen und zu verwalten. Sie können einen Cluster erstellen oder die Bereitstellung in einem vorhandenen Cluster vornehmen. Weitere Informationen finden Sie in [Apps in Kubernetes-Clustern bereitstellen](/docs/containers?topic=containers-app).
+  * **Bereitstellung in Cloud Foundry**. Mit dieser Option wird die cloudnative App bereitgestellt, ohne dass Sie die zugrunde liegende Infrastruktur verwalten müssen. Wenn Ihr Konto über Zugriff auf {{site.data.keyword.cfee_full_notm}} verfügt, können Sie als Bereitstellertyp entweder **Public Cloud** oder **Enterprise Environment** auswählen, das zum Erstellen und Verwalten isolierter Umgebungen für das exklusive Hosting von Cloud Foundry-Apps für Ihr Unternehmen verwendet werden kann. Weitere Informationen finden Sie in [Apps in Cloud Foundry Public bereitstellen](/docs/cloud-foundry-public?topic=cloud-foundry-public-deployingapps) und [Apps in {{site.data.keyword.cfee_full_notm}} bereitstellen](/docs/cloud-foundry?topic=cloud-foundry-deploy_apps).
+  * **Bereitstellung auf einem virtuellen Server**. Mit dieser Option wird eine virtuelle Serverinstanz bereitgestellt, ein Image mit Ihrer App geladen, eine DevOps-Toolchain erstellt und der erste Bereitstellungszyklus initiiert. Weitere Informationen finden Sie in [Apps auf einem virtuellen Server bereitstellen](/docs/vsi?topic=virtual-servers-deploying-to-a-virtual-server).
   

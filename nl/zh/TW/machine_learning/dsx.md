@@ -39,7 +39,7 @@ Watson Studio 的結構為專案型架構，其會組織您的資源以解決商
 
 1. 若要讓認證整合更加簡單，您必須將 {{site.data.keyword.pm_short}} 實例新增至 iOS 應用程式或後端應用程式。為了更方便存取，您的認證包括在專案儀表板上。
 
-![應用程式詳細資料](images/ios-machinelearning-app.png "應用程式詳細資料")
+![應用程式詳細資料](images/ios-machinelearning-app.png "應用程式詳細資料"){: caption="圖 1. 應用程式詳細資料" caption-side="bottom"}
 
 2. 下載應用程式程式碼。
 3. 起始設定

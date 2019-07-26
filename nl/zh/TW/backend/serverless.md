@@ -25,7 +25,7 @@ subcollection: swift
 
 藉由摘要伺服器端開發所需的基礎架構及架構，無伺服器架構容許開發人員專注於撰寫程式碼，並反應性地執行以變更資料。
 
-IBM 的 FaaS 供應項目 [{{site.data.keyword.openwhisk}}](https://{DomainName}/openwhisk){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，力求提供簡單的伺服器端開發經驗，而不需要任何特殊的伺服器端知識。使用無伺服器技術，您可以快速開發可延伸的後端解決方案，以符合幾乎所有工作負載需求，而不需要提前建立資源。對於負載型樣不可預測或伺服器關閉時間長的應用程式，{{site.data.keyword.openwhisk_short}} 會是一個出色的雲端解決方案，其效能已經過改進，而且其「按使用內容付費」機制還有助於降低成本。
+IBM 的 FaaS 供應項目 [{{site.data.keyword.openwhisk}}](https://{DomainName}/openwhisk){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，力求提供簡單的伺服器端開發經驗，而不需要任何特殊的伺服器端知識。使用無伺服器技術，您可以快速開發可延伸的後端解決方案，以符合幾乎所有工作負載需求，而不需要提前建立資源。對於具有無法預期之負載型樣或伺服器關閉時間過長的應用程式，{{site.data.keyword.openwhisk_short}} 可以是出色的雲端解決方案，其效能已獲得改進，且其「使用者付費」系統可協助降低成本。
 
 ## 架構變更
 {: #comparison-serverless}
@@ -36,7 +36,7 @@ IBM 的 FaaS 供應項目 [{{site.data.keyword.openwhisk}}](https://{DomainName}
 
 無伺服器架構可以變更這個結構，讓它看起來更像下列影像。
 
-![無伺服器架構](./images/Architecture.png "無伺服器架構")
+![無伺服器架構](./images/Architecture.png "無伺服器架構"){: caption="圖 1. 無伺服器架構流程" caption-side="bottom"}
 
 無伺服器架構使用封裝大量伺服器端邏輯的函數，將部分邏輯卸載給用戶端（及外部服務），而不是在單一伺服器內處理所有處理作業及鑑別邏輯。
 
@@ -75,16 +75,16 @@ IBM 的 FaaS 供應項目 [{{site.data.keyword.openwhisk}}](https://{DomainName}
 ## 範例使用案例
 {: #use-cases-serverless}
 
-### 行動式後端系統
+### 行動後端
 {: #mobile-backend-serverless}
-![行動後端](./images/cloud-functions-rest-api-trigger.png "行動後端")
+![行動後端](./images/cloud-functions-rest-api-trigger.png "行動後端"){: caption="圖 2. 行動後端" caption-side="bottom"}
 
 行動開發人員可以輕鬆地存取伺服器端邏輯，並將運算密集作業外包給雲端平台。使用 iOS SDK，您可以用 Swift 等語言來實作函數，並輕鬆地取用伺服器端函數，而不需要任何伺服器端經驗。
 
 ### 資料處理
 {: #data-processing-serverless}
 
-![無伺服器資料處理](./images/cloud-functions-cloudant-trigger.png "無伺服器資料處理")
+![無伺服器資料處理](./images/cloud-functions-cloudant-trigger.png "無伺服器資料處理"){: caption="圖 3. 無伺服器資料處理" caption-side="bottom"}
 
 您只要透過內建觸發程式更新資料儲存庫中的資料，就可以執行程式碼。您也可以透過實用的伺服器端程式設計模型，輕鬆地自動執行處理程序，例如，音訊正規化、旋轉影像、銳利化、降噪、產生縮圖或視訊轉碼。
 

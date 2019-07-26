@@ -74,7 +74,7 @@ Carthage para gerenciamento de dependência, execute as etapas a seguir:
 {: #create-ios-app-swift}
 
 1. Efetue login no [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo").
-2. Clique em **Criar app**.
+2. Clique em  ** Criar app **.
 3. Na página [Iniciador vazio](https://{DomainName}/developer/appledevelopment/create-app){: new_window} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo"), é possível usar a configuração padrão ou atualizar os campos, conforme necessário. Assegure-se de que **iOS Swift** seja a linguagem selecionada. Clique em  ** Criar **.
 
 ## Etapa 3. Incluindo o serviço  {{site.data.keyword.cloudant_short_notm}}

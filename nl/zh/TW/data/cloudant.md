@@ -34,7 +34,7 @@ subcollection: swift
  * MacOS（10.11.5 版或更新版本）
  * Xcode（9.0.1 版或更新版本）
 
-[{{site.data.keyword.cloudant_short_notm}} SDK for Swift ](https://github.com/cloudant/swift-cloudant){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 使用 Swift 3.2 建置。如果您計劃搭配使用 {{site.data.keyword.cloudant_short_notm}} 與 Kitura，請查看使用 Swift 4.0 建置的 [Kitura-CouchDB Library ](https://github.com/IBM-Swift/Kitura-CouchDB){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
+[{{site.data.keyword.cloudant_short_notm}} SDK for Swift ](https://github.com/cloudant/swift-cloudant){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示") 使用 Swift 3.2 建置。如果您計劃搭配使用 {{site.data.keyword.cloudant_short_notm}} 與 Kitura，請參閱使用 Swift 4.0 建置的 [Kitura-CouchDB Library ](https://github.com/IBM-Swift/Kitura-CouchDB){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")。
 {: tip}
 
 ## 步驟 1. 建立 {{site.data.keyword.cloudant_short_notm}} 實例

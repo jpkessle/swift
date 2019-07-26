@@ -26,7 +26,7 @@ führen Sie über {{site.data.keyword.dev_cli_short}}
 mithilfe von Standardbefehlen aus. 
 
 Mit {{site.data.keyword.dev_cli_short}} können Sie über ein
-Dutzend Befehle für die Verwaltung Ihrer serverseitigen Anwendungen nutzen. Weitere Informationen zu den verschiedenen Befehlen finden Sie in [`ibmcloud dev`-Befehle der {{site.data.keyword.dev_cli_notm}}-Befehlszeilenschnittstelle](/docs/cli/idt?topic=cloud-cli-idt-cli). 
+Dutzend Befehle für die Verwaltung Ihrer serverseitigen Anwendungen nutzen. Weitere Informationen zu den verschiedenen Befehlen finden Sie in [`ibmcloud dev`-Befehle der {{site.data.keyword.dev_cli_notm}}-Befehlszeilenschnittstelle](/docs/cli/idt?topic=cloud-cli-idt-cli).
 
 ## Vorbereitende Schritte
 {: #prereqs-local}
@@ -39,7 +39,7 @@ curl -sL https://ibm.biz/idt-installer | bash
 ```
 {: codeblock}
 
-Weitere Informationen zur Konfiguration und Verwendung der {{site.data.keyword.dev_cli_notm}} finden Sie in [{{site.data.keyword.dev_cli_notm}}-Befehlszeilenschnittstelle einrichten](/docs/cli?topic=cloud-cli-getting-started). 
+Weitere Informationen zur Konfiguration und Verwendung der {{site.data.keyword.dev_cli_notm}} finden Sie in [{{site.data.keyword.dev_cli_notm}}-Befehlszeilenschnittstelle einrichten](/docs/cli?topic=cloud-cli-getting-started).
 
 ## Serviceberechtigungsnachweise abrufen
 {: #credentials-local}

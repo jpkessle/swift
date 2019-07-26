@@ -34,7 +34,7 @@ Durch die Ausgliederung der für die serverseitige Entwicklung erforderlichen In
 
 [{{site.data.keyword.openwhisk}}](https://{DomainName}/openwhisk){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"), das IBM Produktangebot für FaaS, soll eine einfache, serverseitige Entwicklungsumgebung bereitstellen, die kein Fachwissen zur Serverseite erfordert. Bei Verwendung der serverunabhängigen Technologie können
 Sie zeitnah erweiterbare Back-End-Lösungen für praktisch jeden Workloadbedarf
-entwickeln, ohne vorzeitig Ressourcen erstellen zu müssen. Für Anwendungen mit unvorhersehbaren Auslastungsmustern oder hohen Serverausfallzeiten kann {{site.data.keyword.openwhisk_short}} eine ausgezeichnete Cloudlösung mit verbesserter Leistung sein und dank seiner nutzungsabhängigen Gebührenstruktur zur Kosteneinsparung beitragen. 
+entwickeln, ohne vorzeitig Ressourcen erstellen zu müssen. Für Anwendungen mit unvorhersehbaren Auslastungsmustern oder hohen Serverausfallzeiten kann {{site.data.keyword.openwhisk_short}} eine ausgezeichnete Cloudlösung mit verbesserter Leistung sein und dank seiner nutzungsabhängigen Gebührenstruktur zur Kosteneinsparung beitragen.
 
 ## Architekturänderungen
 {: #comparison-serverless}

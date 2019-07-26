@@ -60,9 +60,9 @@ Programando com o Swift no IBM Cloud
 
     {: .navgroup id="reference"}
     sdk.md
-    [Docs da API](https://cloud.ibm.com/apidocs)
-    [Apps de amostra no IBM Code](https://developer.ibm.com/code/technologies/swift-on-the-server/)
-    [Centro do desenvolvedor do IBM Cloud](https://developer.ibm.com/swift/)
+    [Docs de API](https://cloud.ibm.com/apidocs)
+    [Code Patterns](https://developer.ibm.com/patterns/category/swift/)
+    [IBM Cloud Developer Center](https://developer.ibm.com/swift/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}

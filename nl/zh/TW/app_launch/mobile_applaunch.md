@@ -24,7 +24,7 @@ subcollection: swift
 
 {{site.data.keyword.engage_short}} 服務可定義特性、根據裝置平台來建立對象（包括自訂對象屬性），最後定義一個參與，編排特性的時間及位置。使用 SDK 之後，隨著應用程式中合併的特性與度量值屬性，服務會開始測量對象經驗。您現在可以根據此資訊，使用應用程式來建立應用程式使用者的各種類之間的自訂客戶參與。
 
-![Cognitive Engage 概觀圖](images/process_app_launch.png "Cognitive Engage 概觀圖")
+![Cognitive Engage 概觀](images/process_app_launch.png "Cognitive Engage 概觀"){: caption="圖 1. {{site.data.keyword.engage_short}} 服務生命週期概觀" caption-side="bottom"}
 
 請參閱 {{site.data.keyword.engage_short}} 服務的下列特性：
 

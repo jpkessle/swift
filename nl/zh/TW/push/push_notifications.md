@@ -28,7 +28,7 @@ subcollection: swift
 
 您可以選擇將 {{site.data.keyword.mobilepushshort}} 服務當作 MobileFirst Services Starter Boilerplate 的一部分使用，或者當作 {{site.data.keyword.cloud_notm}} [專用服務](/docs/dedicated?topic=dedicated-dedicated#dedicated) 使用。您也可以使用 SDK（軟體開發套件）及 [REST API ](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/notifications/rest-apis/){: new_window} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")，以進一步開發用戶端應用程式。
 
-![Push 概觀圖](images/push_notification_lifecycle.jpg "Push 概觀圖")
+![Push 概觀](images/push_notification_lifecycle.jpg "Push 概觀"){: caption="圖 1. {{site.data.keyword.mobilepushshort}} 服務生命週期概觀" caption-side="bottom"}
 
 ## 開始之前
 {: #prereqs-push}
@@ -70,8 +70,8 @@ subcollection: swift
 2. 選擇**行動**選項，以更新 **APNs Push 認證**表單中的資訊。
 3. 選擇下列一個選項：
 	- 對於**行動**選項
-		1. 選取**沙盤推演**（開發）或**正式作業**（配送），然後上傳您建立的 `p.12` 憑證。
-		  ![{{site.data.keyword.mobilepushshort}} 主控台](images/wizard.jpg "推送通知行動配置")
+		1. 選取**沙盤推演**（開發）或**正式作業**（分佈），然後上傳您建立的 `p.12` 憑證。
+		  ![{{site.data.keyword.mobilepushshort}} 主控台](images/wizard.jpg "推送通知行動配置"){: caption="圖 2. 推送通知行動配置" caption-side="bottom"}
 
 		2. 在**密碼**欄位中，輸入與 `.p12` 憑證檔案相關聯的密碼，然後按一下**儲存**。
 
@@ -85,7 +85,7 @@ subcollection: swift
 		-**Safari Web 推送憑證**：上傳 `.p12` 憑證並提供密碼。
 4. 按一下**儲存**。
 
-  ![{{site.data.keyword.mobilepushshort}} 主控台](images/push_configure_safari.jpg "推送通知 Web 配置")
+  ![{{site.data.keyword.mobilepushshort}} 主控台](images/push_configure_safari.jpg "推送通知 Web 配置"){: caption="圖 3. 推送通知 Web 配置" caption-side="bottom"}
 
 ## 步驟 4. 設定服務 Client SDK
 {: #service-client-push}
@@ -103,7 +103,7 @@ subcollection: swift
 
 1. 選取**傳送通知**，然後選擇**傳送至**選項來編寫訊息。支援的選項為**依據標籤的裝置**、**裝置 ID**、**使用者 ID**、**iOS 裝置**、**Web 通知**以及**所有裝置**。**附註**：當您選取**所有裝置**選項時，訂閱 {{site.data.keyword.mobilepushshort}} 的所有裝置都會收到通知。
 
-  ![傳送通知畫面](images/tag_notification.jpg "傳送通知畫面")
+  ![「傳送通知」畫面](images/tag_notification.jpg "「傳送通知」畫面"){: caption="圖 4. 「傳送通知」畫面" caption-side="bottom"}
 
 2. 在**訊息**欄位中，編寫訊息。視需要選擇配置選用設定。
 3. 按一下**傳送**。
@@ -111,11 +111,11 @@ subcollection: swift
 
   下列畫面擷取顯示裝置前景中處理推送通知的警示方框。
   
-  ![Android 上的前景推送通知](images/Android_Screenshot.jpg "前景通知警示")
+  ![Android 上的前景推送通知](images/Android_Screenshot.jpg "前景通知警示"){: caption="圖 5. Android 上的前景通知警示" caption-side="bottom"}
 
   下列畫面擷取顯示背景中的推送通知。
   
-  ![iOS 上的背景推送通知](images/background.png "背景通知警示")
+  ![iOS 上的背景推送通知](images/background.png "背景通知警示"){: caption="圖 6. iOS 上的背景通知警示" caption-side="bottom"}
 
 ### 選用設定
 {: #optional-push}

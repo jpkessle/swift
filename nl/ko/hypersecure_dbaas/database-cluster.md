@@ -236,6 +236,6 @@ MongoKitten.Database&lt;mongodb:/&sol;&lt;<em>Hostname_1</em>&gt;&colon;&lt;<em>
 
 대시보드에서 배치 도구 체인을 작성하려면 **배치**를 클릭하십시오. 선택하는 방법의 지시사항에 따라 배치 대상을 설정하십시오.
   * **IBM Kubernetes Service에 배치**. 이 옵션은 작업자 노드라고 하는 호스트의 클러스터를 작성하여 고가용성 앱 컨테이너를 배치하고 관리합니다. 사용자는 클러스터를 작성하거나 기존 클러스터에 배치할 수 있습니다. 자세한 정보는 [Kubernetes 클러스터에 앱 배치](/docs/containers?topic=containers-app)를 참조하십시오.
-  * **Cloud Foundry에 배치**. 이 옵션은 기본 인프라를 관리하지 않고도 클라우드 고유 앱을 배치합니다. 계정에 {{site.data.keyword.cfee_full_notm}}에 대한 액세스 권한이 있는 경우, **퍼블릭 클라우드** 또는 **엔터프라이즈 환경**의 배치자 유형을 선택할 수 있으며, 이는 사용자 엔터프라이즈에서 독점적으로 Cloud Foundry 앱을 호스팅하기 위한 격리 환경을 작성하고 관리하는 데 사용할 수 있습니다. 자세한 정보는 [Cloud Foundry Public에 앱 배치](/docs/cloud-foundry-public?topic=cloud-foundry-public-deployingapps) 및 [{{site.data.keyword.cfee_full_notm}}에 앱 배치](/docs/cloud-foundry?topic=cloud-foundry-deploy_apps)를 참조하십시오. 
+  * **Cloud Foundry에 배치**. 이 옵션은 기본 인프라를 관리하지 않고도 클라우드 고유 앱을 배치합니다. 계정에 {{site.data.keyword.cfee_full_notm}}에 대한 액세스 권한이 있는 경우, **퍼블릭 클라우드** 또는 **엔터프라이즈 환경**의 배치자 유형을 선택할 수 있으며, 이는 사용자 엔터프라이즈에서 독점적으로 Cloud Foundry 앱을 호스팅하기 위한 격리 환경을 작성하고 관리하는 데 사용할 수 있습니다. 자세한 정보는 [Cloud Foundry Public에 앱 배치](/docs/cloud-foundry-public?topic=cloud-foundry-public-deployingapps) 및 [{{site.data.keyword.cfee_full_notm}}에 앱 배치](/docs/cloud-foundry?topic=cloud-foundry-deploy_apps)를 참조하십시오.
   * **가상 서버에 배치**. 이 옵션은 가상 서버 인스턴스를 프로비저닝하고 앱이 포함된 이미지를 로드하며 DevOps 도구 체인을 작성하고 첫 번째 배치 주기를 시작합니다. 자세한 정보는 [가상 서버에 앱 배치](/docs/vsi?topic=virtual-servers-deploying-to-a-virtual-server)를 참조하십시오.
   

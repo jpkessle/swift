@@ -120,8 +120,8 @@ die Methode `application:didFinishLaunchingWithOptions` von `AppDelegate` in Ihr
   ```
   {: codeblock}
   
-  * `tenantID`: Die Tenant-ID ist eine eindeutige Kennung, die zum Initialisieren Ihrer App verwendet wird. Sie können den Wert im {{site.data.keyword.appid_short_notm}}-Dashboard aufrufen, indem Sie die Registerkarte **Serviceberechtigungsnachweise** auswählen und anschließend auf **Berechtigungsnachweise anzeigen** klicken. 
-  * `AppID_region`: Die {{site.data.keyword.appid_short_notm}}-Region ist die {{site.data.keyword.cloud_notm}}-Region, in der Sie mit dem Service arbeiten. Diese Region ist im Service-Dashboard zu finden und kann `AppID.REGION_US_SOUTH`, `AppID.REGION_SYDNEY` oder `AppID.REGION_UK` lauten. 
+  * `tenantID`: Die Tenant-ID ist eine eindeutige Kennung, die zum Initialisieren Ihrer App verwendet wird. Sie können den Wert im {{site.data.keyword.appid_short_notm}}-Dashboard aufrufen, indem Sie die Registerkarte **Serviceberechtigungsnachweise** auswählen und anschließend auf **Berechtigungsnachweise anzeigen** klicken.
+  * `AppID_region`: Die {{site.data.keyword.appid_short_notm}}-Region ist die {{site.data.keyword.cloud_notm}}-Region, in der Sie mit dem Service arbeiten. Diese Region ist im Service-Dashboard zu finden und kann `AppID.REGION_US_SOUTH`, `AppID.REGION_SYDNEY` oder `AppID.REGION_UK` lauten.
 
 5. Fügen Sie Ihrer Datei `AppDelegate` den folgenden Code hinzu.
     ```swift
@@ -335,4 +335,4 @@ Sie gleich eine der folgenden Optionen aus:
 {{site.data.keyword.appid_short_notm}} in der
 [Dokumentation](/docs/services/appid?topic=appid-getting-started#getting-started). Dort
 erfahren Sie auch, wie Sie alle gebotenen Funktionen nutzen können.
-* Starter-Kits bieten eine der schnellsten Möglichkeiten zur Nutzung des Leistungsspektrums von {{site.data.keyword.cloud_notm}}. Im [Dashboard für Entwickler für Mobilgeräte](https://{DomainName}/developer/mobile/dashboard){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") werden die verfügbaren Starter-Kits angezeigt. Laden Sie den Code herunter. Führen Sie die App aus! 
+* Starter-Kits bieten eine der schnellsten Möglichkeiten zur Nutzung des Leistungsspektrums von {{site.data.keyword.cloud_notm}}. Im [Dashboard für Entwickler für Mobilgeräte](https://{DomainName}/developer/mobile/dashboard){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link") werden die verfügbaren Starter-Kits angezeigt. Laden Sie den Code herunter. Führen Sie die App aus!

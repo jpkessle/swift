@@ -78,7 +78,7 @@ sudo gem install cocoapods
 
 2. 從資訊看板，以 `.zip` 檔上傳模型訓練課程。然後，從下拉功能表選取每個資料集，並將其新增至您的模型。您可以隨意增加使用您專屬影像集的類別，以加強分類器！
 
-![新增類別](images/add_classes.png "將服務鏈結到 Watson Studio")
+![新增類別](images/add_classes.png "將服務鏈結到 Watson Studio"){: caption="圖 1. 將服務鏈結到 Watson Studio" caption-side="bottom"}
 
 3. 選取**訓練模型**，然後等待模型完成訓練。
 

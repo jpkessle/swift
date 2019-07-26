@@ -324,4 +324,4 @@ Features von {{site.data.keyword.engage_short}}:
  - Testen Sie den [Service 'App Launch'](https://{DomainName}/catalog/services/app-launch){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
  - [Blogs
 und Videos](/docs/services/app-launch?topic=app-launch-blogs-and-videos)
- - Weitere Informationen finden Sie in der [Dokumentation zu App Launch](/docs/services/app-launch?topic=app-launch-gettingstartedtemplate). 
+ - Weitere Informationen finden Sie in der [Dokumentation zu App Launch](/docs/services/app-launch?topic=app-launch-gettingstartedtemplate).

@@ -42,7 +42,7 @@ sempre consistente com a especificação de API toda vez que o app é construíd
 
 Para obter mais informações, consulte [Integrando serviços de backend com um SDK gerado](/docs/swift/backend?topic=swift-sdkgen-cli#sdkgen-cli).
 
-## Implementando em um Cluster do Kubernetes
+## Implementando em um cluster do Kubernetes
 {: #deploy_kube-swift}
 
 É possível aprender como usar o {{site.data.keyword.cloud_notm}} Kubernetes Service para implementar um app conteinerizado que alavanca o Watson Tone Analyzer. No cenário fornecido, uma firma PR fictícia usa o serviço {{site.data.keyword.cloud_notm}} para analisar seus press releases e receber feedback sobre o sinal de suas mensagens. Para obter mais informações, consulte o tutorial [Implementando apps em clusters Kubernetes](/docs/containers?topic=containers-cs_apps_tutorial).

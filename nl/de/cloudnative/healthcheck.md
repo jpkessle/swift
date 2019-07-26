@@ -57,7 +57,7 @@ Die folgende Tabelle enthält Informationen zu den Reaktionen der Prüfung von B
 | Wird gestoppt | 503 - nicht verfügbar           | 200 - OK                   | 503 - nicht verfügbar         |
 | Inaktiv     | 503 - nicht verfügbar           | 503 - nicht verfügbar          | 503 - nicht verfügbar         |
 | Fehlerhaft  | 500 - Serverfehler          | 500 - Serverfehler         | 500 - Serverfehler        |
-{: caption="Tabelle 1. HTTP-Statuscodes. " caption-side="bottom"}
+{: caption="Tabelle 1. HTTP-Statuscodes." caption-side="bottom"}
 
 ## Statusprüfung zu einer vorhandenen Swift-App hinzufügen
 {: #existing-app}

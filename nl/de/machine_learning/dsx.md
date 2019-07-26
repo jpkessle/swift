@@ -45,7 +45,7 @@ verarbeitet. Diese APIs können dann in Ihren iOS- oder Swift-Anwendungen
 eingesetzt werden.
 
 Mit IBM Watson Machine Learning können Sie nach dem Einrichten der
-Umgebung Modelle erstellen, in der Cloud bereitstellen und trainieren. Weitere Informationen finden Sie in [Mit {{site.data.keyword.pm_full}} und {{site.data.keyword.DSX}} Modelle erstellen, bereitstellen und trainieren](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/wml-ai.html){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link"). 
+Umgebung Modelle erstellen, in der Cloud bereitstellen und trainieren. Weitere Informationen finden Sie in [Mit {{site.data.keyword.pm_full}} und {{site.data.keyword.DSX}} Modelle erstellen, bereitstellen und trainieren](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/wml-ai.html){: new_window} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link").
 
 ### Lernprogramme
 {: #dsx-tutorials}

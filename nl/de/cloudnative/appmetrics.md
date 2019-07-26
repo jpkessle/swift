@@ -21,7 +21,7 @@ subcollection: swift
 {: #metrics}
 
 Anwendungsmetriken sind wichtig, um die Leistung Ihrer Anwendung zu
-überwachen. Eine Live-Ansicht von Metriken wie CPU-, Speicher-, Latenzzeit- und HTTP-Metriken ist notwendig, um sicherzustellen, dass Ihre Anwendung jederzeit effektiv ausgeführt wird. Kubernetes- und Cloud Foundry-Services wie [autoscaling](/docs/services/Auto-Scaling?topic=Auto-Scaling-get-started) verwenden Metriken, um zu ermitteln, wann Instanzen aufgrund der Arbeitslast dynamisch hinzugefügt bzw. entfernt oder nicht mehr benötigte Instanzen bereinigt werden sollen, um Kosten zu sparen. 
+überwachen. Eine Live-Ansicht von Metriken wie CPU-, Speicher-, Latenzzeit- und HTTP-Metriken ist notwendig, um sicherzustellen, dass Ihre Anwendung jederzeit effektiv ausgeführt wird. Kubernetes- und Cloud Foundry-Services wie [autoscaling](/docs/services/Auto-Scaling?topic=Auto-Scaling-get-started) verwenden Metriken, um zu ermitteln, wann Instanzen aufgrund der Arbeitslast dynamisch hinzugefügt bzw. entfernt oder nicht mehr benötigte Instanzen bereinigt werden sollen, um Kosten zu sparen.
 
 Anwendungsmetriken werden als Zeitreihendaten erfasst. Das Zusammenfassen und Visualisieren von erfassten Metriken kann Sie bei der Erkennung allgemeiner
 Leistungsprobleme unterstützen. Beispiele:
