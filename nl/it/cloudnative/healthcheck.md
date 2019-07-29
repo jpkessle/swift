@@ -50,7 +50,7 @@ La seguente tabella fornisce le indicazioni sulle risposte che possono essere fo
 | In arresto | 503 - Non disponibile           | 200 - OK                   | 503 - Non disponibile         |
 | Non attivo     | 503 - Non disponibile           | 503 - Non disponibile          | 503 - Non disponibile         |
 | In errore  | 500 - Errore server          | 500 - Errore server         | 500 - Errore server        |
-{: caption="Tabella 1. Codici di stato HTTP. " caption-side="bottom"}
+{: caption="Tabella 1. Codici di stato HTTP." caption-side="bottom"}
 
 ## Aggiunta di un controllo di integrità a un'applicazione Swift esistente
 {: #existing-app}

@@ -80,7 +80,7 @@ Pour configurer des APN sur la console des services Push Notification, procédez
 		- **ID push du site web **: mettez à jour cette zone avec la chaîne de domaine inverse pour votre ID push de site Web. Par exemple, `web.com.example.www`.
 		- **URL du site Web** : fournissez l'URL du site Web abonné aux notifications push. Par exemple, `https://www.example.com`.
 		- **Domaines autorisés** : (paramètre facultatif) Liste des sites Web qui demandent l'autorisation de l'utilisateur. Vérifiez que les URL sont des valeurs séparées par des virgules. Les valeurs de l'URL de site Web sont utilisés si les informations ne sont pas fournies.
-		- **Chaîne de format de l'URL **: URL à résoudre lors d'un clic sur la notification. Par exemple, `https://www.example.com`.Vérifiez que l'URL utilise le schéma http ou https.
+		- **Chaîne de format de l'URL **: URL à résoudre lors d'un clic sur la notification. Par exemple, `https://www.example.com`. Vérifiez que l'URL utilise le schéma http ou https.
 		-** Certificat push Web de Safari** : téléchargez le certificat `.p12` et indiquez le mot de passe.
 4. Cliquez sur **Sauvegarder**.
 

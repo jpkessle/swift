@@ -80,7 +80,7 @@ Per configurare APNs sulla console dei servizi Push Notifications, completa la s
 		- **Website Push ID**: aggiorna con la stringa reverse-domain per il tuo ID push sito web. Ad esempio, `web.com.example.www`.
 		- **Website URL**: fornisci l'URL del sito web sottoscritto alle notifiche di push. Ad esempio, `https://www.example.com`.
 		- **Allowed Domains**: (parametro facoltativo) Un elenco di siti web che richiedono l'autorizzazione dall'utente. Assicurati che gli URL siano valori separati da virgola. Vengono utilizzati i valori in Website URL se non vengono fornite le informazioni.
-		- **URL Format String**: l'URL da risolvere quando si fa clic sulla notifica. Ad esempio, `https://www.example.com`.Assicurati che l'URL utilizzi lo schema http o https.
+		- **URL Format String**: l'URL da risolvere quando si fa clic sulla notifica. Ad esempio, `https://www.example.com`. Assicurati che l'URL utilizzi lo schema http o https.
 		-**Safari web push certificate**: Carica il certificato `.p12` e fornisci la password.
 4. Fai clic su **Save**.
 

@@ -102,4 +102,4 @@ func initializeMetrics(router: Router) {
 
 Une fois votre application lancée, vous pouvez accéder au tableau de bord à partir du noeud final `/swiftmetrics-dash`.
 
-Par défaut, `SwiftMetricsPrometheus` fournit le [noeud final Prometheus](https://prometheus.io/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") sous `http://<hostname>:<port>/metrics`. 
+Par défaut, `SwiftMetricsPrometheus` fournit le [noeud final Prometheus](https://prometheus.io/){: new_window} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe") sous `http://<hostname>:<port>/metrics`.
