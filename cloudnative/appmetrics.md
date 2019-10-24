@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-07"
+lastupdated: "2019-10-22"
 
 keywords: swiftmetrics-dash, swiftmetrics, prometheus swift, application metrics swift, swift performance, slow swift, swift dashboard, metris swift
 
@@ -66,40 +66,3 @@ let smd = try SwiftMetricsDash(swiftMetricsInstance : metrics)
 
 By default, `SwiftMetricsDash` starts its own Kitura server, and serves up the page under `http://<hostname>:<port>/swiftmetrics-dash`. Access the dashboard to see your new application metrics, including HTTP requests, and event loop latency.
 
-## Using Application Metrics in starter kits
-{: #appmetrics-starterkits}
-
-The server-side Swift applications that are created from starter kits include `SwiftMetrics`, `SwiftMetricsDash`, and `SwiftMetricsPrometheus`, so they're ready for use in Kubernetes environments that use Prometheus endpoints for gathering metrics.
-
-The `SwiftMetrics` code can be found in `/Sources/Application/Metrics.swift`:
-```swift
-import Kitura
-import SwiftMetrics
-import SwiftMetricsDash
-import SwiftMetricsPrometheus
-import LoggerAPI
-
-var swiftMetrics: SwiftMetrics?
-var swiftMetricsDash: SwiftMetricsDash?
-var swiftMetricsPrometheus: SwiftMetricsPrometheus?
-
-func initializeMetrics(router: Router) {
-    do {
-        let metrics = try SwiftMetrics()
-        let dashboard = try SwiftMetricsDash(swiftMetricsInstance: metrics, endpoint: router)
-        let prometheus = try SwiftMetricsPrometheus(swiftMetricsInstance: metrics, endpoint: router)
-
-        swiftMetrics = metrics
-        swiftMetricsDash = dashboard
-        swiftMetricsPrometheus = prometheus
-        Log.info("Initialized metrics.")
-    } catch {
-        Log.warning("Failed to initialize metrics: \(error)")
-    }
-}
-```
-{: codeblock}
-
-Once your application is running, you can access the dashboard by using the `/swiftmetrics-dash` endpoint.
-
-By default, `SwiftMetricsPrometheus` provides the [Prometheus endpoint](https://prometheus.io/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") under `http://<hostname>:<port>/metrics`.
