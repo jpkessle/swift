@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-13"
+lastupdated: "2019-11-15"
 
 keywords: deploy swift app, deploy swift, serverless swift, deploy swift cloud foundry, swift kubernetes, swift virtual server
 
@@ -23,7 +23,7 @@ subcollection: swift
 
 You can deploy your Swift apps with a toolchain or by using the command line interface. A toolchain is a set of tool integrations. The command line interface is a simple way to deploy your apps and service instances.
 
-For more information, see [Deploying apps](/docs/apps?topic=creating-apps-create-deploy-app-cli#create-deploy-app-cli).
+For more information, see [Deploying apps](/docs/apps?topic=creating-apps-deploying-apps).
 
 ## Developing serverless Swift apps
 {: #serverless-swift}
@@ -32,7 +32,7 @@ To develop in a serverless development, you can use IBM's Functions as a Service
 
 {{site.data.keyword.openwhisk_short}} performs system administration like auto-scaling, availability management, and maintenance, allowing Developers to remain focused on writing application logic.
 
-For more information, see [Developing serverless apps](/docs/apps/deploying?topic=creating-apps-serverless#serverless).
+For more information, see [Developing serverless apps](/docs/apps/deploying?topic=creating-apps-serverless).
 
 ## Integrating back-end services with a generated SDK
 {: #backend_gensdk-swift}
@@ -53,7 +53,7 @@ This option deploys your cloud-native app without you needing to manage the unde
 
 If you plan to deploy your app to [{{site.data.keyword.cfee_full}}](/docs/cloud-foundry?topic=cloud-foundry-about), you must [prepare your {{site.data.keyword.cloud_notm}} account](/docs/cloud-foundry?topic=cloud-foundry-prepare).
 
-If your account has access to {{site.data.keyword.cfee_full_notm}}, you can select a deployer type of either **[Public Cloud](/docs/cloud-foundry-public?topic=cloud-foundry-public-about-cf)** or **[Enterprise Environment](/docs/cloud-foundry-public?topic=cloud-foundry-public-cfee)**, which you can use to create and manage isolated environments for hosting Cloud Foundry applications exclusively for your enterprise.
+If your account has access to {{site.data.keyword.cfee_full_notm}}, you can select a deployer type of either [Public Cloud or Enterprise Environment](/docs/cloud-foundry?topic=cloud-foundry-what-is-cloud-foundry#ibmcf-offerings), which you can use to create and manage isolated environments for hosting Cloud Foundry applications exclusively for your enterprise.
 
 ## Deploying to a Virtual Server
 {: #virtual_deploy-swift}

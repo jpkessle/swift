@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-11-15"
 
 keywords: watson swift, swift developer, apple development, ios oveview, developer console, swift, apple console
 
@@ -59,8 +59,6 @@ The {{site.data.keyword.cloud_notm}} developer console includes areas of interes
 * [Watson developer console](https://{DomainName}/developer/watson/dashboard){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
 * [Mobile developer console](https://{DomainName}/developer/mobile/dashboard){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
 * [Web App developer console](https://{DomainName}/developer/appservice/dashboard){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-* [Security developer console](https://{DomainName}/developer/security/dashboard){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-* [Finance developer console](https://{DomainName}/developer/finance/dashboard){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
 
 <!--Cloud native development is the process of developing apps that are optimized to leverage capabilities engendered from running on the cloud.  Flexibility, portability, scaling, rapid development, continuous delivery, and a close coupling development and operations ("devops) are characteristics of cloud applications. The {{site.data.keyword.cloud}} developer console quickly gets you started building cloud native applications that are ready for team development and bound for production use.-->
 
