@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-11-15"
+lastupdated: "2019-12-02"
 
 keywords: deploy swift app, deploy swift, serverless swift, deploy swift cloud foundry, swift kubernetes, swift virtual server
 
@@ -21,18 +21,21 @@ subcollection: swift
 # Deploying and integrating Swift apps
 {: #deploy_apps-swift}
 
-You can deploy your Swift apps with a toolchain or by using the command line interface. A toolchain is a set of tool integrations. The command line interface is a simple way to deploy your apps and service instances.
+You can deploy your Swift apps with a toolchain or by using the command-line interface. A toolchain is a set of tool integrations. The command-line interface is a simple way to deploy your apps and service instances.
 
 For more information, see [Deploying apps](/docs/apps?topic=creating-apps-deploying-apps).
 
 ## Developing serverless Swift apps
 {: #serverless-swift}
 
-To develop in a serverless development, you can use IBM's Functions as a Service (FaaS) offering, {{site.data.keyword.openwhisk}}. {{site.data.keyword.openwhisk_short}} enables application logic to be run in response to events or direct invocations from web or mobile apps over HTTP without creating or managing servers.
+To facilitate serverless development, you can use the IBM Function as a Service (FaaS) offering, [{{site.data.keyword.openwhisk}}](https://www.ibm.com/cloud/functions){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). {{site.data.keyword.openwhisk_short}} enables application logic to be run in response to events or direct invocations from web or mobile apps over HTTP without provisioning or managing servers.
 
-{{site.data.keyword.openwhisk_short}} performs system administration like auto-scaling, availability management, and maintenance, allowing Developers to remain focused on writing application logic.
+{{site.data.keyword.openwhisk_short}} performs system administration like auto-scaling, availability management, and maintenance, allowing developers to remain focused on writing application logic.
 
-For more information, see [Developing serverless apps](/docs/apps/deploying?topic=creating-apps-serverless).
+For more information, see:
+* [Developing serverless apps](/docs/apps/deploying?topic=creating-apps-serverless)
+* [IBM Cloud Functions](https://www.ibm.com/cloud/functions){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
+* [FaaS (Function-as-a-Service)](https://www.ibm.com/cloud/learn/faas){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
 
 ## Integrating back-end services with a generated SDK
 {: #backend_gensdk-swift}

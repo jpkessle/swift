@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-06-13"
+lastupdated: "2019-12-02"
 
 keywords: swift-cfenv, service bindings swift, environment swift, swift configuration, cloudenvironment swift, VCAP_SERVICES swift, swift credentials
 
@@ -30,7 +30,7 @@ You can follow simple guidelines to help you write portable applications, and ut
 ## Adding {{site.data.keyword.cloud_notm}} to existing Swift applications
 {: #addcloud-env}
 
-The path for abstracting environment values can differ from one cloud environment to another. The [CloudEnvironment](https://github.com/IBM-Swift/CloudEnvironment){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") library abstracts environment configuration and credentials from various cloud providers so your Swift app can consistently access the information by running locally or in Cloud Foundry, Cloud Foundry Enterprise Environment, Kubernetes, {{site.data.keyword.openwhisk}} or virtual instances. The credentials abstraction is provided by the `CloudEnvironment` library, which internally uses [Swift-cfenv](https://github.com/IBM-Swift/Swift-cfenv){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for Cloud Foundry configuration and [Configuration](https://github.com/IBM-Swift/Configuration){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") as a configuration manager.
+The path for abstracting environment values can differ from one cloud environment to another. The [CloudEnvironment](https://github.com/IBM-Swift/CloudEnvironment){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") library abstracts environment configuration and credentials from various cloud providers so your Swift app can consistently access the information by running locally or in Cloud Foundry, Cloud Foundry Enterprise Environment, Kubernetes, {{site.data.keyword.openwhisk}}, or virtual instances. The credentials abstraction is provided by the `CloudEnvironment` library, which internally uses [Swift-cfenv](https://github.com/IBM-Swift/Swift-cfenv){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for Cloud Foundry configuration and [Configuration](https://github.com/IBM-Swift/Configuration){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") as a configuration manager.
 
 With `CloudEnvironment`, you can abstract low-level details from your application's source code by defining a lookup key that your Swift application can use for searching its corresponding value.
 
@@ -79,7 +79,7 @@ This example provides access to the credential sets for services, which can now 
 
 The `CloudEnvironment` library uses a file that is named `mappings.json`, found in the `config` directory, to communicate where the credentials are stored for each service. The `mappings.json` file supports searching for values that use the following three search pattern types:
 - **`cloudfoundry`** - A pattern type used to search for a value in Cloud Foundry's services environment variable (`VCAP_SERVICES`). For Cloud Foundry Enrprise Edition, see this [getting started tutorial](/docs/cloud-foundry?topic=cloud-foundry-getting-started#getting-started) for more information.
-- **`env`** - A pattern type used to search for a value that is mapped to an environment variable, as in Kubernetes or Functions.
+- **`env`** - A pattern type used to search for a value that is mapped to an environment variable, as in Kubernetes or {{site.data.keyword.openwhisk}}.
 - **`file`** - A pattern type used to search for a value in a JSON file. The path must be relative to the root folder of your Swift application.
 
 The array of values that are associated with a lookup key is searched in the order they appear.
@@ -120,7 +120,7 @@ For more information about the `mappings.json` file, check out the [Understandin
 ## Using the Swift configuration manager from starter kit apps
 {: #configmanager-swift}
 
-Swift apps that are created with [starter kits](https://{DomainName}/developer/appledevelopment/starter-kits){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") automatically come with the credentials and configuration that is needed to run locally, and also in many cloud deployment targets, such as [Kubernetes](/docs/containers?topic=containers-getting-started), [Cloud Foundry](/docs/cloud-foundry-public?topic=cloud-foundry-public-about-cf), [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about), [Virtual Server (VSI)](/docs/vsi?topic=virtual-servers-getting-started-tutorial), or [{{site.data.keyword.openwhisk_short}}](/docs/openwhisk?topic=cloud-functions-getting_started).
+Swift apps that are created with [starter kits](https://{DomainName}/developer/appledevelopment/starter-kits){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") automatically come with the credentials and configuration that is needed to run locally, and also in many cloud deployment targets, such as [Kubernetes](/docs/containers?topic=containers-getting-started), [Cloud Foundry](/docs/cloud-foundry-public?topic=cloud-foundry-public-about-cf), [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about), or [Virtual Server (VSI)](/docs/vsi?topic=virtual-servers-getting-started-tutorial).
 
   VSI deployment is available for some starter kits. To use this feature, go to the [{{site.data.keyword.cloud_notm}} dashboard](https://{DomainName}), and click **Create an app** in the **Apps** tile.
   {: note}
