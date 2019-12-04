@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-12-02"
+lastupdated: "2019-12-04"
 
 keywords: swift-cfenv, service bindings swift, environment swift, swift configuration, cloudenvironment swift, VCAP_SERVICES swift, swift credentials
 
@@ -30,7 +30,7 @@ You can follow simple guidelines to help you write portable applications, and ut
 ## Adding {{site.data.keyword.cloud_notm}} to existing Swift applications
 {: #addcloud-env}
 
-The path for abstracting environment values can differ from one cloud environment to another. The [CloudEnvironment](https://github.com/IBM-Swift/CloudEnvironment){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") library abstracts environment configuration and credentials from various cloud providers so your Swift app can consistently access the information by running locally or in Cloud Foundry, Cloud Foundry Enterprise Environment, Kubernetes, {{site.data.keyword.openwhisk}}, or virtual instances. The credentials abstraction is provided by the `CloudEnvironment` library, which internally uses [Swift-cfenv](https://github.com/IBM-Swift/Swift-cfenv){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for Cloud Foundry configuration and [Configuration](https://github.com/IBM-Swift/Configuration){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") as a configuration manager.
+The path for abstracting environment values can differ from one cloud environment to another. The [CloudEnvironment](https://github.com/IBM-Swift/CloudEnvironment){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") library abstracts environment configuration and credentials from various cloud providers so that your Swift app can consistently access the information by running locally, in Cloud Foundry, Kubernetes, or OpenShift. The credentials abstraction is provided by the `CloudEnvironment` library, which internally uses [Swift-cfenv](https://github.com/IBM-Swift/Swift-cfenv){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") for Cloud Foundry configuration and [Configuration](https://github.com/IBM-Swift/Configuration){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") as a configuration manager.
 
 With `CloudEnvironment`, you can abstract low-level details from your application's source code by defining a lookup key that your Swift application can use for searching its corresponding value.
 
@@ -120,14 +120,11 @@ For more information about the `mappings.json` file, check out the [Understandin
 ## Using the Swift configuration manager from starter kit apps
 {: #configmanager-swift}
 
-Swift apps that are created with [starter kits](https://{DomainName}/developer/appledevelopment/starter-kits){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") automatically come with the credentials and configuration that is needed to run locally, and also in many cloud deployment targets, such as [Kubernetes](/docs/containers?topic=containers-getting-started), [Cloud Foundry](/docs/cloud-foundry-public?topic=cloud-foundry-public-about-cf), [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about), or [Virtual Server (VSI)](/docs/vsi?topic=virtual-servers-getting-started-tutorial).
-
-  VSI deployment is available for some starter kits. To use this feature, go to the [{{site.data.keyword.cloud_notm}} dashboard](https://{DomainName}), and click **Create an app** in the **Apps** tile.
-  {: note}
+Swift apps that are created with [starter kits](https://{DomainName}/developer/appledevelopment/starter-kits){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") automatically come with the credentials and configuration that is needed to run locally, and also in many cloud deployment targets, such as [Kubernetes](/docs/containers?topic=containers-getting-started), [Cloud Foundry](/docs/cloud-foundry-public?topic=cloud-foundry-public-about-cf), and [{{site.data.keyword.cfee_full_notm}}](/docs/cloud-foundry?topic=cloud-foundry-about).
 
 The basic creation of the configuration manager can be found in `Sources/Application/Application.swift`. When you create a Swift-based Starter Kit app with services, a `config` folder and `mappings.json` file is created for you. If you download your app, the `config` folder includes a `localdev-config.json` file that has all of the credentials for your services, and is present in the `.gitignore` file.
 
-## Next Steps
+## Next steps
 {: #next-configß notoc}
 
 Check out our three libraries to help your applications abstract themselves from their environments:
