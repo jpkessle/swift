@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-06-06"
+  years: 2018, 2020
+lastupdated: "2019-01-02"
 
 keywords: swift starter kit, apple developer console, download code swift, app details swift, create swift app
 
@@ -42,7 +42,7 @@ The {{site.data.keyword.cloud_notm}} Developer Console for Apple gives you a sea
 ### Overview screen
 {: #overview_screen}
 
-The Overview screen gives you content that is tailored to a set of use cases like Watson, Weather, and more. From the overview screen, you can see documentation, access educational resources, browse services, see featured starter kits, or link to a larger collection of starter kits. Select **Starter Kits** in the navigation area to step into the Starter Kits view.
+The Overview screen gives you content that is tailored to a set of use cases, such as Watson. From the overview screen, you can see documentation, access educational resources, browse services, see featured starter kits, or link to a larger collection of starter kits. Select **Starter Kits** in the navigation area to step into the Starter Kits view.
 
 ![{{site.data.keyword.cloud_notm}} Developer Console for Apple Overview screen](images/overview_screen.png "Overview screen"){: caption="Figure 1. {{site.data.keyword.cloud_notm}} Developer Console for Apple Overview screen" caption-side="bottom"}
 
