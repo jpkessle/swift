@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-12-19"
+  years: 2018, 2020
+lastupdated: "2020-01-21"
 
 keywords: deploy swift app, deploy swift, serverless swift, deploy swift cloud foundry, swift kubernetes
 
@@ -17,6 +17,7 @@ subcollection: swift
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
+{:external: target="_blank" .external}
 
 # Deploying and integrating Swift apps
 {: #deploy_apps-swift}
@@ -28,21 +29,14 @@ For more information, see [Deploying apps](/docs/apps?topic=creating-apps-deploy
 ## Developing serverless Swift apps
 {: #serverless-swift}
 
-To facilitate serverless development, you can use the IBM Function as a Service (FaaS) offering, [{{site.data.keyword.openwhisk}}](https://www.ibm.com/cloud/functions){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). {{site.data.keyword.openwhisk_short}} enables application logic to be run in response to events or direct invocations from web or mobile apps over HTTP without provisioning or managing servers.
+To facilitate serverless development, you can use the IBM Function as a Service (FaaS) offering, [{{site.data.keyword.openwhisk}}](https://www.ibm.com/cloud/functions){: external}. {{site.data.keyword.openwhisk_short}} enables application logic to be run in response to events or direct invocations from web or mobile apps over HTTP without provisioning or managing servers.
 
 {{site.data.keyword.openwhisk_short}} performs system administration like auto-scaling, availability management, and maintenance, allowing developers to remain focused on writing application logic.
 
 For more information, see:
 * [Developing serverless apps](/docs/apps/deploying?topic=creating-apps-serverless)
-* [IBM Cloud Functions](https://www.ibm.com/cloud/functions){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
-* [FaaS (Function-as-a-Service)](https://www.ibm.com/cloud/learn/faas){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
-
-## Integrating back-end services with a generated SDK
-{: #backend_gensdk-swift}
-
-The {{site.data.keyword.IBM_notm}} SDK Generator plug-in easily integrates back-end services to your app with a generated SDK. When a change to a REST API occurs, you can regenerate the SDK and replace the old one for to upgrade the SDK. You can also integrate the CLI into a DevOps pipeline and ensure that the SDK is always consistent with the API spec each time the app is built.
-
-For more information, see [Integrating back-end services with a generated SDK](/docs/swift/backend?topic=swift-sdkgen-cli#sdkgen-cli).
+* [IBM Cloud Functions](https://www.ibm.com/cloud/functions){: external}
+* [FaaS (Function-as-a-Service)](https://www.ibm.com/cloud/learn/faas){: external}
 
 ## Deploying to a Kubernetes cluster
 {: #deploy-kube}

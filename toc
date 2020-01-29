@@ -8,19 +8,11 @@ Programming with Swift on IBM Cloud
     index.md
     apple_development.md
     starter_kit/starter_kits.md
-                    
-    {: .topicgroup}
-    Developing back-end components
-        backend/intro.md
-        backend/mbaas.md
-        backend/serverless.md
-        backend/sample_cloud.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     installing_sdks.md
     push/push_notifications.md
-    app_launch/mobile_applaunch.md
     
     {: .topicgroup}
     Securing Swift apps
@@ -32,8 +24,6 @@ Programming with Swift on IBM Cloud
         data/cloudant.md
         data/sql.md
         data/object.md
-
-    hypersecure_dbaas/database-cluster.md
 
     {: .topicgroup}
     Adding Watson AI services
@@ -49,11 +39,8 @@ Programming with Swift on IBM Cloud
     {: .topicgroup}
     Developing server-side Swift apps
         cloudnative/configuration.md
-        cloudnative/appmetrics.md
         cloudnative/healthcheck.md
         cloudnative/logging.md
-        backend/kitura.md
-        create_app_cli.md
     
     deploying_apps.md
     {: .navgroup-end}

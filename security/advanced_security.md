@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-06-17"
+  years: 2018, 2020
+lastupdated: "2020-01-21"
 
 keywords: swift security, add security swift, crypto swift, hyper protect swift, ios hyper protect, dbaas swift, swift key management, swift advanced security
 
@@ -59,23 +59,7 @@ With this service, you can create database clusters in the {{site.data.keyword.c
  * The system hardware, the system configuration, and the database setup ensure high availability.
  * The underlying technologies prevent {{site.data.keyword.IBM_notm}} or a third party from being able to access your data.
 
-### Adding {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS logic to your application
-{: #swift-hyperprotect}
-
-To use a MongoDB database in your application, see
-[Getting started with using a database](/docs/swift/hypersecure_dbaas?topic=swift-create-database-cluster#creating-a-highly-available-and-secure-database).  
-
 ### Learning more about {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS
 {: #swift-learnmore}
 
 To learn more about {{site.data.keyword.cloud_notm}} Hyper Protect DBaaS, see [Getting Started with IBM Cloud Hyper Protect DBaaS](/docs/services/hyper-protect-dbaas?topic=hyper-protect-dbaas-gettingstarted#gettingstarted).
-
-## Using {{site.data.keyword.cloud_notm}} {{site.data.keyword.hscontainers}}
-{: #swift-hscontainers}
-
-{{site.data.keyword.hscontainers}} delivers powerful tools by combining Docker and Kubernetes technologies, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.
-
-{{site.data.keyword.hscontainers}} are only available to sponsored users. If you expect dedicated security support, register as a sponsored user with the [IBM Z Client Feedback Program](https://www.ibm.com/marketing/iwm/iwmdocs/web/cc/earlyprograms/zwelcome.shtml){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to deploy your application to the {{site.data.keyword.hscontainers}} cluster.
-{: tip}
-
-Before you become a sponsored user, you can use {{site.data.keyword.containershort_notm}} to secure your application. For more information, see [Getting started with {{site.data.keyword.containershort_notm}}](/docs/containers?topic=containers-getting-started).

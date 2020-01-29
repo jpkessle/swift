@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-06-06"
+  years: 2017, 2020
+lastupdated: "2020-01-21"
 
 keywords: sql swift, database swift, persistence swift, data swift, orm swift, kuery swift, kitura swift
 
@@ -160,11 +160,6 @@ Grade.delete(id: 1) { error in
 {: pre}
 
 All of these calls take a handler that is called once and runs it when the database call is complete.
-
-## Using ORM with Kitura
-{: #kitura-orm}
-
-To make it easier to try out ORM, the [FoodTrackerBackend tutorial](https://github.com/IBM/FoodTrackerBackend){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") can save and fetch Meal objects from the iOS app directly into a PostgreSQL database. Even if you complete the tutorial, it's worth going through it again to see the power of Swift-Kuery-ORM, and how it can simplify your Kitura code.
 
 ## Using Swift-Kuery directly
 {: #swift-kuery}

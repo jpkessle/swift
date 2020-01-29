@@ -17,6 +17,7 @@ subcollection: swift
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
+{:external: target="_blank" .external}
 
 # Configuring the Swift environment
 {: #configuration}

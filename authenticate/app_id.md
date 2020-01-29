@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-06-19"
+  years: 2018, 2020
+lastupdated: "2020-01-28"
 
 keywords: authentication swift, security swift, forgot password swift, social swift, identity provider swift, tentantid swift, cloud directory swift
 
@@ -17,6 +17,7 @@ subcollection: swift
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
+{:external: target="_blank" .external}
 
 # Adding user authentication
 {: #appid}
@@ -41,7 +42,7 @@ First, be sure that you have the following prerequisites ready to go:
 
 Create an instance of the {{site.data.keyword.appid_short_notm}} service:
 
-1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"), select {{site.data.keyword.appid_short_notm}}. The service configuration screen opens.
+1. In the [{{site.data.keyword.cloud_notm}} catalog](https://{DomainName}/catalog){: external}, select {{site.data.keyword.appid_short_notm}}. The service configuration screen opens.
 2. Give your service instance a name, or use the preset name.
 3. Select your pricing plan and click **Create**.
 
@@ -80,20 +81,22 @@ After you initialize the SDK in your app, you can start configuring your {{site.
   ```
   {: codeblock}
 
-3. Add the following import to your `AppDelegate.swift` file.
+3. Add the following import to your `AppDelegate.swift` file:
   ```swift
   import IBMCloudAppID
   ```
   {: codeblock}
 
-4. Pass the `tenantID` and `AppID_region` parameters to initialize the SDK. A common, though not mandatory, place to put the code is in the `application:didFinishLaunchingWithOptions` method of the `AppDelegate` in your app.
+4. Pass the `tenantID` and `AppID_region` parameters to initialize the SDK. It is common to place the code in the `application:didFinishLaunchingWithOptions` method of the `AppDelegate` in your app.
+  
   ```swift
   AppID.getInstance().initialize(getApplicationContext(), <tenantId>, <AppID_region>);
   ```
   {: codeblock}
-  
-  * `tenantID`: The tenant ID is a unique identifier that is used to initialize your app. You can find the value in the {{site.data.keyword.appid_short_notm}} dashboard by selecting the **Service Credentials** tab, and then click **View Credentials**.
-  * `AppID_region`: The {{site.data.keyword.appid_short_notm}} region is the {{site.data.keyword.cloud_notm}} region in which you're working with the service. This region can be found in the service dashboard and can be `AppID.REGION_US_SOUTH`, `AppID.REGION_SYDNEY`, and `AppID.REGION_UK`.
+
+  The `tenantID` is a unique identifier that is used to initialize your app. You can find the value in the {{site.data.keyword.appid_short_notm}} dashboard by selecting the **Service Credentials** tab, and then click **View Credentials**.
+  The `AppID_region` is the {{site.data.keyword.cloud_notm}} region in which you're working with the service. This region can be found in the service dashboard and can be `AppID.REGION_US_SOUTH`, `AppID.REGION_SYDNEY`, and `AppID.REGION_UK`.
+  {: tip}
 
 5. Add the following code to your `AppDelegate` file.
     ```swift
@@ -270,4 +273,4 @@ Having trouble? Check out [troubleshooting {{site.data.keyword.appid_short_notm}
 Great job! You added a level of security to your app. Keep the momentum by trying one of the following options:
 
 * Learn more about and take advantage of all of the features that {{site.data.keyword.appid_short_notm}} has to offer, [check out the docs](/docs/services/appid?topic=appid-getting-started#getting-started)!
-* Starter Kits are one of the fastest ways to use the features of {{site.data.keyword.cloud_notm}}. View the available starter kits in the [Mobile Developer dashboard](https://{DomainName}/developer/mobile/dashboard){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). Download the code. Run the App!
+* Starter kits are one of the fastest ways to use the features of {{site.data.keyword.cloud_notm}}. View the available starter kits in the [App Development console](https://{DomainName}/developer/appservice/starter-kits){: external}.

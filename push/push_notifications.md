@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-06-21"
+  years: 2017, 2020
+lastupdated: "2020-01-08"
 
 keywords: push swift, swift notifications, push notifications swift, sending push swift, configure service instance swift, provider credentials swift
 
@@ -15,6 +15,7 @@ subcollection: swift
 {:screen: .screen}
 {:codeblock: .codeblock}
 {:pre: .pre}
+{:external: target="_blank" .external}
 
 # Sending {{site.data.keyword.mobilepushshort}}
 {: #push_notifications}
@@ -26,7 +27,7 @@ Enhance your Swift app by using {{site.data.keyword.mobilepushshort}} service on
  - Customers can choose to subscribe to specific tags or topics for notification.
  - Enables the app owner to analyze the number of devices that are registered to receive notifications and the number of notifications sent.
 
-You can choose to use the {{site.data.keyword.mobilepushshort}} service either as a part of MobileFirst Services Starter Boilerplate or as {{site.data.keyword.cloud_notm}} [Dedicated Services](/docs/dedicated?topic=dedicated-dedicated#dedicated). You can also use an SDK (software development kit) and [REST APIs](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/notifications/rest-apis/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to further develop your client applications.
+You can choose to use the {{site.data.keyword.mobilepushshort}} service either as a part of MobileFirst Services Starter Boilerplate or as {{site.data.keyword.cloud_notm}} [Dedicated Services](/docs/dedicated?topic=dedicated-dedicated#dedicated). You can also use an SDK (software development kit) and [REST APIs](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/notifications/rest-apis/){: external} to further develop your client applications.
 
 ![Push overview](images/push_notification_lifecycle.jpg "Push overview"){: caption="Figure 1. Overview of the {{site.data.keyword.mobilepushshort}} service lifecycle" caption-side="bottom"}
 
@@ -52,7 +53,7 @@ First, be sure that you have the following prerequisites ready to go:
 ## Step 2. Obtain your notification provider credentials
 {: #get_creds-push}
 
-To set up Push Notifications service, you need to get the required credentials from the Apple Push Notification Service (APNs). Follow the steps here to [obtain and configure your APNs credentials ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/mobilepush?topic=mobile-pushnotification-push_step_1){: new_window}.
+To set up Push Notifications service, you need to get the required credentials from the Apple Push Notification Service (APNs). Follow the steps here to [obtain and configure your APNs credentials](/docs/services/mobilepush?topic=mobile-pushnotification-push_step_1).
 
 
 ## Step 3. Configure a service instance
@@ -62,7 +63,7 @@ To use the {{site.data.keyword.mobilepushshort}} service to send notifications, 
 
 After the `.cer` file is in your key chain access, export it to your computer to create a `.p12` certificate.
 
-For more information about using the APNs, see [iOS Developer Library: Local and Push Notification Programming Guide](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+For more information about using the APNs, see [iOS Developer Library: Local and Push Notification Programming Guide](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1){: external}.
 
 To set up APNs on the Push Notification services console, complete the steps:
 
@@ -91,7 +92,7 @@ To set up APNs on the Push Notification services console, complete the steps:
 
 To enable iOS applications to receive push notifications to your devices, you need to configure the iOS SDK for the {{site.data.keyword.mobilepushshort}} service.
 
-The {{site.data.keyword.cloud_notm}} Mobile Services Swift SDKs can be installed with either Cocoapods or Carthage. For more information, see [https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-push/tree/Doc#setup-client-application](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-push/tree/Doc#setup-client-application){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+The {{site.data.keyword.cloud_notm}} Mobile Services Swift SDKs can be installed with either Cocoapods or Carthage. For more information, see [https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-push/tree/Doc#setup-client-application](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-push/tree/Doc#setup-client-application){: external}.
 
 ## Step 5. Sending a notification
 {: #send-notify-push}
@@ -126,12 +127,12 @@ You can customize the {{site.data.keyword.mobilepushshort}} settings for sending
 - **Sound**: Indicates a sound clip to be played on the receipt of a notification. Supports default or the name of a sound resource that is bundled in the app.
 - **Additional payload**: Specifies the custom payload values for your notifications.
 
-You can also choose to enable [interactive notifications](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-push/tree/Doc#interactive-notifications){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") and [rich media notifications](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-push/tree/Doc#enabling-rich-media-notifications){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+You can also choose to enable [interactive notifications](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-push/tree/Doc#interactive-notifications){: external} and [rich media notifications](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-push/tree/Doc#enabling-rich-media-notifications){: external}.
 
 ## Step 6. Monitoring for delivered notifications
 {: #monitor-push}
 
-The {{site.data.keyword.mobilepushshort}} service provides a monitoring utility to help you check the status of messages that are sent. To configure your monitoring utility, see [Enable monitoring for iOS applications](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-push/tree/Doc#enable-monitoring){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+The {{site.data.keyword.mobilepushshort}} service provides a monitoring utility to help you check the status of messages that are sent. To configure your monitoring utility, see [Enable monitoring for iOS applications](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-push/tree/Doc#enable-monitoring){: external}.
 
 ## Next steps
 {: #next-push notoc}
@@ -140,6 +141,6 @@ The {{site.data.keyword.mobilepushshort}} service provides a monitoring utility 
 
  - For an introduction to working with Mobile services and {{site.data.keyword.cloud_notm}}, see [Getting started with Mobile apps on {{site.data.keyword.cloud_notm}}](/docs/services/mobile?topic=mobile-about).
 
- - Starter Kits are one of the fastest ways to use the features of {{site.data.keyword.cloud_notm}}. View our available starter kits in the [Mobile Developer dashboard](https://{DomainName}/developer/mobile/dashboard){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). Download the code. Run the App!
+ - Starter kits are one of the fastest ways to use the features of {{site.data.keyword.cloud_notm}}. View our available starter kits in the [App Development console](https://{DomainName}/developer/appservice/starter-kits){: external}.
 
- - You can use the [Swagger UI](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/notifications/rest-apis/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to quickly review REST API documentation.
+ - You can use the [Swagger UI](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/notifications/rest-apis/){: external} to quickly review REST API documentation.

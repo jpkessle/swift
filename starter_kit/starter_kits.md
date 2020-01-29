@@ -16,13 +16,14 @@ subcollection: swift
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
+{:external: target="_blank" .external}
 
 # Creating Swift apps with starter kits
 {: #starterkits-intro}
 
 The {{site.data.keyword.cloud_notm}} Developer Console for Apple enables Apple developers to create apps from various starter kits, provision and connect key {{site.data.keyword.cloud_notm}}-optimized services, and then quickly download working code or set up for continuous delivery. Users are able to create, view, configure, and manage your app, as well as download your app's code. Using starter kits helps you to quickly evaluate, and test {{site.data.keyword.cloud_notm}} services with a brand new app.
 
-Ready to jump in? Go to the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") now to get started.
+Ready to jump in? Go to the [{{site.data.keyword.cloud_notm}} Developer Console for Apple](https://{DomainName}/developer/appledevelopment/starter-kits){: external} now to get started.
 {: tip}
 
 ## What is a starter kit?
@@ -82,5 +83,5 @@ You can view all of your apps from the {{site.data.keyword.cloud_notm}} resource
 
 ![Viewing your apps in the {{site.data.keyword.cloud_notm}} resource list](images/apps_resource_list.png "App List view"){: caption="Figure 6. Viewing your apps in the {{site.data.keyword.cloud_notm}} resource list" caption-side="bottom"}
 
-For more information, visit the [{{site.data.keyword.cloud_notm}} Developer Console for Apple Learning Resources](https://{DomainName}/developer/appledevelopment/learning-resources){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+For more information, visit the [{{site.data.keyword.cloud_notm}} Developer Console for Apple Learning Resources](https://{DomainName}/developer/appledevelopment/learning-resources){: external}.
 {: tip}
