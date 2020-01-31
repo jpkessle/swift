@@ -16,6 +16,7 @@ subcollection: swift
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
+{:external: target="_blank" .external}
 
 # {{site.data.keyword.visualrecognitionshort}}
 {: #recognition}
@@ -40,7 +41,7 @@ Ensure that you have the following prerequisites:
 * Swift 4.1+
 * CocoaPods, Carthage, or Swift Package Manager
 
-You can install the [Watson Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") by using [CocoaPods](https://github.com/watson-developer-cloud/swift-sdk#cocoapods){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"), [Carthage](https://github.com/watson-developer-cloud/swift-sdk#carthage){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"), or the [Swift Package Manager](https://github.com/watson-developer-cloud/swift-sdk#swift-package-manager){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"). By using CocoaPods(https://cocoapods.org/) to manage dependencies, you get only the frameworks that you need, as opposed to the entire Watson Swift SDK. If you are new to CocoaPods, you can install it easily:
+You can install the [Watson Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external} by using [CocoaPods](https://github.com/watson-developer-cloud/swift-sdk#cocoapods){: external}, [Carthage](https://github.com/watson-developer-cloud/swift-sdk#carthage){: external}, or the [Swift Package Manager](https://github.com/watson-developer-cloud/swift-sdk#swift-package-manager){: external}. By using CocoaPods(https://cocoapods.org/) to manage dependencies, you get only the frameworks that you need, as opposed to the entire Watson Swift SDK. If you are new to CocoaPods, you can install it easily:
 ```console
 sudo gem install cocoapods
 ```
@@ -70,7 +71,7 @@ target 'MyApp' do
 ```
 {: codeblock}
 
-For a production app, you might also want to specify a particular [version requirement](https://guides.cocoapods.org/using/the-podfile.html#specifying-pod-versions){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to avoid unexpected changes from new releases of the Watson Swift SDK.
+For a production app, you might also want to specify a particular [version requirement](https://guides.cocoapods.org/using/the-podfile.html#specifying-pod-versions){: external} to avoid unexpected changes from new releases of the Watson Swift SDK.
 
 With your `Podfile` in place, now you can download the dependencies. Use a terminal to navigate to the root directory of your project, then run CocoaPods:
 
@@ -101,7 +102,7 @@ The following samples help you add {{site.data.keyword.visualrecognitionshort}} 
   ```
   {: codeblock}
 
-  You can check out [version parameter documentation](https://{DomainName}/apidocs/visual-recognition#versioning){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") or use the date that the {site.data.keyword.conversationshort}} service was created.
+  You can check out [version parameter documentation](https://{DomainName}/apidocs/visual-recognition#versioning){: external} or use the date that the {site.data.keyword.conversationshort}} service was created.
   {: tip}
 
 3. Add the following code to classify an image:
@@ -120,16 +121,16 @@ The following samples help you add {{site.data.keyword.visualrecognitionshort}} 
   ```
   {: codeblock}
 
-There are multiple classification methods that are supported by the Visual Recognition framework. Explore the Watson SDK [Visual Recognition documentation](https://watson-developer-cloud.github.io/swift-sdk/services/VisualRecognitionV3/index.html){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") to find which one best suits your application.
+There are multiple classification methods that are supported by the Visual Recognition framework. Explore the Watson SDK [Visual Recognition documentation](https://watson-developer-cloud.github.io/swift-sdk/services/VisualRecognitionV3/index.html){: external} to find which one best suits your application.
 {: tip}
 
 ## Using starter kits
 {: #recognition_starterkits}
 
-[Starter kits](https://{DomainName}/developer/appledevelopment/starter-kits){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") are one of the fastest ways to use the capabilities of {{site.data.keyword.cloud_notm}}. You can use the {{site.data.keyword.visualrecognitionshort}} service by selecting the **Visual Recognition for iOS with Watson** starter kit. This service evaluates and classifies your images. Upload new or existing images from your mobile device, and the Visual Recognition app quickly tags and classifies the image content.
+[Starter kits](https://{DomainName}/developer/appledevelopment/starter-kits){: external} are one of the fastest ways to use the capabilities of {{site.data.keyword.cloud_notm}}. You can use the {{site.data.keyword.visualrecognitionshort}} service by selecting the **Visual Recognition for iOS with Watson** starter kit. This service evaluates and classifies your images. Upload new or existing images from your mobile device, and the Visual Recognition app quickly tags and classifies the image content.
 
 To get started:
-1. Select the starter kit found [here](https://{DomainName}/developer/appledevelopment/starter-kits/visual-recognition-for-ios-with-watson){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+1. Select the starter kit found [here](https://{DomainName}/developer/appledevelopment/starter-kits/visual-recognition-for-ios-with-watson){: external}.
 2. Create the project with the default services.
 3. Download the project by clicking **Download Code**. Service credentials are injected into the `BMSCredentials.plist` file in the corresponding key fields.
 
@@ -137,5 +138,5 @@ To get started:
 {: #recognition_next notoc}
 
 Great job! Visual Recognition is now available to your app. Keep the momentum by trying one of the following options:
-* Check out the [Watson Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") and explore the other supported Watson services.
-* For more information, see [IBM Watson {{site.data.keyword.visualrecognitionshort}}](https://www.ibm.com/watson/services/visual-recognition/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+* Check out the [Watson Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external} and explore the other supported Watson services.
+* For more information, see [IBM Watson {{site.data.keyword.visualrecognitionshort}}](https://www.ibm.com/watson/services/visual-recognition/){: external}.

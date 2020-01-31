@@ -16,6 +16,7 @@ subcollection: swift
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
+{:external: target="_blank" .external}
 
 # Logging in Swift
 {: #logging_swift}
@@ -27,9 +28,9 @@ Given the transient nature of processes in cloud environments, logs must be coll
 ## Adding logging to your Swift app
 {: #logging-add}
 
-[HeliumLogger](https://github.com/IBM-Swift/HeliumLogger){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") is a popular lightweight logging framework for Swift, and provides many native benefits such as logging to standard output and different log levels.
+[HeliumLogger](https://github.com/IBM-Swift/HeliumLogger){: external} is a popular lightweight logging framework for Swift, and provides many native benefits such as logging to standard output and different log levels.
 
-[LoggerAPI](https://github.com/IBM-Swift/LoggerAPI){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") is the logger protocol that provides a common logging interface for different kinds of loggers in Swift. Kitura uses the `LoggerAPI` throughout its implementation.
+[LoggerAPI](https://github.com/IBM-Swift/LoggerAPI){: external} is the logger protocol that provides a common logging interface for different kinds of loggers in Swift. Kitura uses the `LoggerAPI` throughout its implementation.
 
 To use `HeliumLogger`, add the following code to the **dependencies:** section in your `Package.swift` for all appropriate targets:
 ```swift
@@ -49,9 +50,9 @@ Log.info("This is an informational log message.")
 ```
 {: codeblock}
 
-In the provided example, the [log level](http://ibm-swift.github.io/HeliumLogger/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") was explicitly set to `.verbose`, which is the default.
+In the provided example, the [log level](http://ibm-swift.github.io/HeliumLogger/){: external} was explicitly set to `.verbose`, which is the default.
 
-For more information about customizing the log messages, see the official [HeliumLogger API reference documentation](http://ibm-swift.github.io/HeliumLogger/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+For more information about customizing the log messages, see the official [HeliumLogger API reference documentation](http://ibm-swift.github.io/HeliumLogger/){: external}.
 
 ## Logging with starter kits
 {: #logging-starterkits}
@@ -62,7 +63,7 @@ Swift apps that are created by using the {{site.data.keyword.cloud_notm}} App Se
 ```
 {: screen}
 
-These messages are found in `stdout` (standard output) locally, or in the logs for Cloud Foundry and Kubernetes deployments, which are accessed by `[ibmcloud app logs --recent <APP_NAME>]`(/docs/cli/reference?topic=cloud-cli-ibmcloud_commands_apps#ibmcloud_app_logs) and `[kubectl logs <deployment name>`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+These messages are found in `stdout` (standard output) locally, or in the logs for Cloud Foundry and Kubernetes deployments, which are accessed by `[ibmcloud app logs --recent <APP_NAME>]`(/docs/cli/reference?topic=cloud-cli-ibmcloud_commands_apps#ibmcloud_app_logs) and `[kubectl logs <deployment name>`](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs){: external}.
 
 In the `/Sources/AppName/main.swift` file, you can see the following code:
 ```swift
@@ -77,11 +78,11 @@ The log level is explicitly set to `.info` to log informational level messages l
 {: #next-logging notoc}
 
 Learn more about viewing the logs in each of your deployment targets:
-* [Kubernetes Logs](https://kubernetes.io/docs/concepts/cluster-administration/logging/#basic-logging-in-kubernetes){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
+* [Kubernetes Logs](https://kubernetes.io/docs/concepts/cluster-administration/logging/#basic-logging-in-kubernetes){: external}
 * [Cloud Foundry Logs](/docs/cli/reference/ibmcloud?topic=cloud-cli-ibmcloud_cli#ibmcloud_cli)
 * [Cloud Foundry Enterprise Environment - Auditing and logging](/docs/cloud-foundry?topic=cloud-foundry-auditing-logging#auditing-logging)
 * [{{site.data.keyword.openwhisk}} Logs & Monitoring](/docs/openwhisk?topic=cloud-functions-logs)
 
 Learn how to implement and use a log aggregator:
 * [{{site.data.keyword.cloud_notm}} Log Analysis](/docs/services/CloudLogAnalysis?topic=cloudloganalysis-log_analysis_ov#log_analysis_ov)
-* [{{site.data.keyword.cloud_notm}} Private ELK stack](https://www.ibm.com/support/knowledgecenter/en/SSBS6K_2.1.0.2/manage_metrics/logging_elk.html){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
+* [{{site.data.keyword.cloud_notm}} Private ELK stack](https://www.ibm.com/support/knowledgecenter/en/SSBS6K_2.1.0.2/manage_metrics/logging_elk.html){: external}

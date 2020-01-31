@@ -16,20 +16,21 @@ subcollection: swift
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
+{:external: target="_blank" .external}
 
 # Analyzing data sets with custom generated models
 {: #dsx-overview}
 
-Watson Studio provides you with the environment and tools to solve your business problems by collaboratively analyzing data. You can choose the tools that you need to analyze, cleanse, and organize data. Learn to ingest streaming data, or to create, train, and deploy machine learning models. Watson Studio integrates with a wide range of {{site.data.keyword.cloud}} services and Watson Knowledge Catalog, which provides policy management to control assets, and catalogs to index for locating them. [Learn more](https://dataplatform.cloud.ibm.com/){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+Watson Studio provides you with the environment and tools to solve your business problems by collaboratively analyzing data. You can choose the tools that you need to analyze, cleanse, and organize data. Learn to ingest streaming data, or to create, train, and deploy machine learning models. Watson Studio integrates with a wide range of {{site.data.keyword.cloud}} services and Watson Knowledge Catalog, which provides policy management to control assets, and catalogs to index for locating them. [Learn more](https://dataplatform.cloud.ibm.com/){: external}.
 
-Watson Studio is structured around a project-based architecture, which organizes your resources for solving a business problem. Resources include connections to cloud and on-premises data stores, data files, collaborators, and analytic assets like models. For more information, see the [Watson Studio overview](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/overview-ws.html){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+Watson Studio is structured around a project-based architecture, which organizes your resources for solving a business problem. Resources include connections to cloud and on-premises data stores, data files, collaborators, and analytic assets like models. For more information, see the [Watson Studio overview](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/overview-ws.html){: external}.
 
 ## Machine learning for {{site.data.keyword.DSX}}
 {: #dsx-learning}
 
 By using the {{site.data.keyword.DSX}}, it is possible to train models and deploy them and then consume the results by using APIs. These APIs can then be used in your iOS or Swift applications.
 
-With IBM Watson Machine Learning, after you set up your environment, you can create models, deploy them to the cloud, and train them. For more information, see [Create, deploy, and train models with {{site.data.keyword.pm_full}} and {{site.data.keyword.DSX}}](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/wml-ai.html){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+With IBM Watson Machine Learning, after you set up your environment, you can create models, deploy them to the cloud, and train them. For more information, see [Create, deploy, and train models with {{site.data.keyword.pm_full}} and {{site.data.keyword.DSX}}](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/wml-ai.html){: external}.
 
 ### Tutorials
 {: #dsx-tutorials}
@@ -217,11 +218,11 @@ client.retrieveToken { token in
 ## Next steps
 {: #dsx_next notoc}
 
-Great job! Now you can analyze data sets by using custom generated machine learning models. Keep the momentum by learning more about the features that {{site.data.keyword.pm_short}} has to offer at [Data science and machine learning](https://www.ibm.com/analytics/machine-learning){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+Great job! Now you can analyze data sets by using custom generated machine learning models. Keep the momentum by learning more about the features that {{site.data.keyword.pm_short}} has to offer at [Data science and machine learning](https://www.ibm.com/analytics/machine-learning){: external}.
 
 ### Related Links
 {: #dsx-related}
 
 * [{{site.data.keyword.pm_short}}](/docs/services/PredictiveModeling?topic=PredictiveModeling-WMLgettingstarted)
-* [{{site.data.keyword.DSX}}](https://www.ibm.com/cloud/watson-studio){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
-* [{{site.data.keyword.DSX}} documentation](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon")
+* [{{site.data.keyword.DSX}}](https://www.ibm.com/cloud/watson-studio){: external}
+* [{{site.data.keyword.DSX}} documentation](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html){: external}

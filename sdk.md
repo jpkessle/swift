@@ -15,6 +15,7 @@ subcollection: swift
 {:screen: .screen}
 {:codeblock: .codeblock}
 {:pre: .pre}
+{:external: target="_blank" .external}
 
 # Adding Swift SDKs to your app
 {: #sdk}
@@ -29,19 +30,19 @@ You can use the following SDKs in your mobile application to leverage their resp
 ### Adding Client SDK services
 {: #add-client-sdk}
 
-- [Core SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-core){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [{{site.data.keyword.appid_short}} SDK](https://github.com/ibm-cloud-security/appid-clientsdk-swift){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [{{site.data.keyword.mobileanalytics_short}} SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [{{site.data.keyword.mobilepushshort}} SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-push){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [BMSSecurity](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-security){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [{{site.data.keyword.engage_short}} SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-applaunch){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [BMSGoogleAuthentication SDK{: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-security-googleauthentication)
-- [Watson Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
+- [Core SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-core){: external}
+- [{{site.data.keyword.appid_short}} SDK](https://github.com/ibm-cloud-security/appid-clientsdk-swift){: external}
+- [{{site.data.keyword.mobileanalytics_short}} SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-analytics){: external}
+- [{{site.data.keyword.mobilepushshort}} SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-push){: external}
+- [BMSSecurity](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-security){: external}
+- [{{site.data.keyword.engage_short}} SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-applaunch){: external}
+- [BMSGoogleAuthentication SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-swift-security-googleauthentication){: external}
+- [Watson Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external}
 
 ### Adding client storage
 {: #add-storage}
 
-- [Cloudant](https://github.com/cloudant/swift-cloudant){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
+- [Cloudant](https://github.com/cloudant/swift-cloudant){: external}
 
 ## Adding server-side SDKs
 {: #server_sdk}
@@ -51,18 +52,18 @@ If you have a Swift server application, you can use the following SDKs to commun
 ### Using server-side services
 {: #use-serverside}
 
-- [{{site.data.keyword.appid_short}} Swift Server SDK](https://github.com/ibm-cloud-security/appid-serversdk-swift){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [{{site.data.keyword.openwhisk_short}} for iOS](https://{DomainName}/openwhisk/learn/ios-sdk){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [KituraKit](https://github.com/IBM-Swift/KituraKit){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [{{site.data.keyword.mobilepushshort}} Swift Server SDK](https://github.com/ibm-bluemix-mobile-services/bms-pushnotifications-serversdk-swift){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [Watson Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
+- [{{site.data.keyword.appid_short}} Swift Server SDK](https://github.com/ibm-cloud-security/appid-serversdk-swift){: external}
+- [{{site.data.keyword.openwhisk_short}} for iOS](https://{DomainName}/openwhisk/learn/ios-sdk){: external}
+- [KituraKit](https://github.com/IBM-Swift/KituraKit){: external}
+- [{{site.data.keyword.mobilepushshort}} Swift Server SDK](https://github.com/ibm-bluemix-mobile-services/bms-pushnotifications-serversdk-swift){: external}
+- [Watson Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external}
 
 ### Adding server-side storage
 {: #add-serverside}
 
-- [Redis](https://github.com/IBM-Swift/Kitura-redis){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [CouchDB](https://github.com/IBM-Swift/Kitura-CouchDB){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [MongoDB](https://github.com/OpenKitten/MongoKitten){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [PostgreSQL](https://github.com/IBM-Swift/Swift-Kuery-PostgreSQL){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [SQLite](https://github.com/IBM-Swift/Swift-Kuery-SQLite){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
-- [Object Storage](https://github.com/ibm-bluemix-mobile-services/bluemix-objectstorage-serversdk-swift){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
+- [Redis](https://github.com/IBM-Swift/Kitura-redis){: external}
+- [CouchDB](https://github.com/IBM-Swift/Kitura-CouchDB){: external}
+- [MongoDB](https://github.com/OpenKitten/MongoKitten){: external}
+- [PostgreSQL](https://github.com/IBM-Swift/Swift-Kuery-PostgreSQL){: external}
+- [SQLite](https://github.com/IBM-Swift/Swift-Kuery-SQLite){: external}
+- [Object Storage](https://github.com/ibm-bluemix-mobile-services/bluemix-objectstorage-serversdk-swift){: external}

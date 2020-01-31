@@ -16,6 +16,7 @@ subcollection: swift
 {:codeblock: .codeblock}
 {:pre: .pre}
 {:tip: .tip}
+{:external: target="_blank" .external}
 
 # Using an SQL database for data persistence
 {: #sql_data}
@@ -32,9 +33,9 @@ With Object-Relational Mapping (ORM), you can map objects to relational database
 ## Step 1. Getting started with ORM
 {: #start-orm}
 
-Use the [Swift-Kuery-ORM](https://github.com/IBM-Swift/Swift-Kuery-ORM){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") with an SQL plug-in such as [PostgreSQL](https://github.com/IBM-Swift/Swift-Kuery-PostgreSQL){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") or [MySQL](https://github.com/IBM-Swift/SwiftKueryMySQL){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+Use the [Swift-Kuery-ORM](https://github.com/IBM-Swift/Swift-Kuery-ORM){: external} with an SQL plug-in such as [PostgreSQL](https://github.com/IBM-Swift/Swift-Kuery-PostgreSQL){: external} or [MySQL](https://github.com/IBM-Swift/SwiftKueryMySQL){: external}.
 
-For this example, the [PostgreSQL](https://github.com/IBM-Swift/Swift-Kuery-PostgreSQL){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon") plug-in is used. Follow the instructions to [install the plug-in](https://github.com/IBM-Swift/Swift-Kuery-PostgreSQL#postgresql-client-installation){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon").
+For this example, the [PostgreSQL](https://github.com/IBM-Swift/Swift-Kuery-PostgreSQL){: external} plug-in is used. Follow the instructions to [install the plug-in](https://github.com/IBM-Swift/Swift-Kuery-PostgreSQL#postgresql-client-installation){: external}.
 
 ## Step 2. Importing ORM into your application
 {: #import-orm}
@@ -164,4 +165,4 @@ All of these calls take a handler that is called once and runs it when the datab
 ## Using Swift-Kuery directly
 {: #swift-kuery}
 
-If ORM limits you because you need more control over your database, you can use the SQL abstraction layer, [Swift-Kuery](https://github.com/IBM-Swift/Swift-Kuery){: new_window} ![External link icon](../../icons/launch-glyph.svg "External link icon"), where you can make an SQL query.
+If ORM limits you because you need more control over your database, you can use the SQL abstraction layer, [Swift-Kuery](https://github.com/IBM-Swift/Swift-Kuery){: external}, where you can make an SQL query.
