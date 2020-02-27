@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-06-12"
+  years: 2018, 2020
+lastupdated: "2020-02-27"
 
 keywords: coreml swift, core ml swift, watson swift core, create model swift, image classification swift, version parameter swift, swift coreml watson
 
@@ -39,10 +39,10 @@ To use Core ML and Watson Visual Recognition with Swift, you need the following 
 
 You can install the [Watson Swift SDK](https://github.com/watson-developer-cloud/swift-sdk){: external} by using [CocoaPods](https://github.com/watson-developer-cloud/swift-sdk#cocoapods){: external}, [Carthage](https://github.com/watson-developer-cloud/swift-sdk#carthage){: external}, or the [Swift Package Manager](https://github.com/watson-developer-cloud/swift-sdk#swift-package-manager){: external}. By using CocoaPods to manage dependencies, you get only the frameworks that you need, as opposed to the entire Watson Swift SDK. If you are new to CocoaPods, you can install it easily:
 
-```console
+```sh
 sudo gem install cocoapods
 ```
-{: codeblock}
+{: pre}
 
 ## Step 1. Training a model with {{site.data.keyword.watson}} {{site.data.keyword.visualrecognitionshort}}
 {: #train-module-coreml}
@@ -101,10 +101,10 @@ For a production app, you might also want to specify a particular [version requi
 
 With your `Podfile` in place, now you can download the dependencies. Use a terminal to navigate to the root directory of your project, then run CocoaPods:
 
-```console
+```sh
 pod install
 ```
-{: codeblock}
+{: pre}
 
 Cocoapods downloads the {{site.data.keyword.visualrecognitionshort}} framework, and builds it in the `Pods/` folder of your project.
 
@@ -124,11 +124,13 @@ The following samples help you add {{site.data.keyword.visualrecognitionshort}} 
 
 2. Pass the API key and version to initialize the SDK:
   ```swift
-  let visualRecognition = VisualRecognition(version: "yyyy-mm-dd", apiKey: "your-api-key")
+  let authenticator = WatsonIAMAuthenticator(apiKey: "your-api-key")
+  let visualRecognition = VisualRecognition(version: "yyyy-mm-dd", authenticator: authenticator)
+  visualRecognition.serviceURL = "{url}"
   ```
   {: codeblock}
-
-  Check out the [version parameter documentation](https://{DomainName}/apidocs/visual-recognition#versioning){: external} or use the date that the {site.data.keyword.visualrecognitionshort}} service was created.
+  
+  Check out the [Authentication section](https://{DomainName}/apidocs/visual-recognition/visual-recognition-v3?code=swift#authentication){: external} for more information about how to configure your service instance with your credentials.
   {: tip}
 
 3. Add the following code to download or update the local Core ML model with your Watson classifier:
