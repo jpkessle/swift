@@ -8,6 +8,7 @@ Programming with Swift on IBM Cloud
     index.md
     apple_development.md
     starter_kit/starter_kits.md
+    [What are cloud native apps?](https://www.ibm.com/cloud/learn/cloud-native)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
